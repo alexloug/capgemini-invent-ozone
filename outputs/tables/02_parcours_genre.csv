@@ -1,0 +1,5 @@
+﻿,MonthlyIncome,MonthlyIncome,MonthlyIncome,PercentSalaryHike,PercentSalaryHike,PercentSalaryHike,JobLevel,JobLevel,JobLevel,YearsAtCompany,YearsAtCompany,YearsAtCompany,YearsInCurrentRole,YearsInCurrentRole,YearsInCurrentRole,YearsSinceLastPromotion,YearsSinceLastPromotion,YearsSinceLastPromotion
+,count,mean,median,count,mean,median,count,mean,median,count,mean,median,count,mean,median,count,mean,median
+Gender,,,,,,,,,,,,,,,,,,
+Female,605,6703.06611570248,5154.0,605,15.206611570247935,14.0,605,2.1305785123966943,2.0,605,7.2214876033057855,5.0,605,4.434710743801653,3.0,605,2.287603305785124,1.0
+Male,913,6378.242059145674,4821.0,913,15.224534501642935,14.0,913,2.0339539978094194,2.0,913,6.8455640744797375,5.0,913,4.075575027382256,3.0,913,2.1161007667031764,1.0
