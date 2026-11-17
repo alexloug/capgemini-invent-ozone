@@ -1,0 +1,9 @@
+path,cells,code_cells,executed,errors
+notebooks/00_audit_variables.ipynb,84,41,41,0
+notebooks/01_exploration.ipynb,18,9,9,0
+notebooks/01b_encoding.ipynb,18,9,9,0
+notebooks/02_gender_equality.ipynb,13,6,6,0
+notebooks/03_working_conditions.ipynb,11,5,5,0
+notebooks/04_attrition_model.ipynb,18,8,8,0
+notebooks/05_random_forest.ipynb,18,8,8,0
+notebooks/06_random_forest_improvement.ipynb,16,8,8,0

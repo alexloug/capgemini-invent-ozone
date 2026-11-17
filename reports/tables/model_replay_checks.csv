@@ -1,0 +1,4 @@
+﻿model,training_n,replayed_prediction_max_difference,source
+Logistic Regression,1214,0.0,src/modeling.py; indices 04/05; saved pipeline
+Random Forest,1214,0.0,src/modeling.py; indices 04/05; saved pipeline
+Dummy,1214,0.0,src/modeling.py; indices 04/05; saved pipeline

@@ -1,0 +1,88 @@
+{
+  "feature_to_group": {
+    "OverTime": "Working Conditions",
+    "WorkLifeBalance": "Working Conditions",
+    "EnvironmentSatisfaction": "Working Conditions",
+    "BusinessTravel": "Working Conditions",
+    "Department": "Working Conditions",
+    "Gender": "Gender Equality",
+    "DailyRate": "Compensation",
+    "HourlyRate": "Compensation",
+    "MonthlyIncome": "Compensation",
+    "MonthlyRate": "Compensation",
+    "PercentSalaryHike": "Compensation",
+    "StockOptionLevel": "Compensation",
+    "JobLevel": "Career Development",
+    "JobRole": "Career Development",
+    "NumCompaniesWorked": "Career Development",
+    "TotalWorkingYears": "Career Development",
+    "TrainingTimesLastYear": "Career Development",
+    "YearsAtCompany": "Career Development",
+    "YearsInCurrentRole": "Career Development",
+    "YearsSinceLastPromotion": "Career Development",
+    "YearsWithCurrManager": "Career Development",
+    "PerformanceRating": "Career Development",
+    "JobSatisfaction": "Engagement & Satisfaction",
+    "JobInvolvement": "Engagement & Satisfaction",
+    "RelationshipSatisfaction": "Engagement & Satisfaction",
+    "Age": "Employee Profile",
+    "Education": "Employee Profile",
+    "EducationField": "Employee Profile",
+    "MaritalStatus": "Employee Profile",
+    "DistanceFromHome": "Employee Profile"
+  },
+  "groups": {
+    "Working Conditions": [
+      "OverTime",
+      "WorkLifeBalance",
+      "EnvironmentSatisfaction",
+      "BusinessTravel",
+      "Department"
+    ],
+    "Gender Equality": [
+      "Gender"
+    ],
+    "Compensation": [
+      "DailyRate",
+      "HourlyRate",
+      "MonthlyIncome",
+      "MonthlyRate",
+      "PercentSalaryHike",
+      "StockOptionLevel"
+    ],
+    "Career Development": [
+      "JobLevel",
+      "JobRole",
+      "NumCompaniesWorked",
+      "TotalWorkingYears",
+      "TrainingTimesLastYear",
+      "YearsAtCompany",
+      "YearsInCurrentRole",
+      "YearsSinceLastPromotion",
+      "YearsWithCurrManager",
+      "PerformanceRating"
+    ],
+    "Engagement & Satisfaction": [
+      "JobSatisfaction",
+      "JobInvolvement",
+      "RelationshipSatisfaction"
+    ],
+    "Employee Profile": [
+      "Age",
+      "Education",
+      "EducationField",
+      "MaritalStatus",
+      "DistanceFromHome"
+    ]
+  },
+  "assignment_notes": {
+    "Gender Equality": "Gender only: demographic signal, NOT a measure of equality. Pay and career outcomes are audited separately by gender, not duplicated as predictors.",
+    "Department": "Organisational context assigned to working conditions; could also reflect career opportunities.",
+    "DistanceFromHome": "Residential profile; also relevant to working conditions. Assignment sensitivity is reported.",
+    "EnvironmentSatisfaction": "Work environment assigned to working conditions rather than engagement.",
+    "JobRole": "Career position; also proxies working conditions and compensation.",
+    "PerformanceRating": "Career assessment; may also affect pay.",
+    "DailyRate / HourlyRate / MonthlyRate": "Kept under compensation, but definitions and comparability with income are undocumented.",
+    "Gender": "Existing Female=1, Male=0 coding retained; no broader gender categories are available."
+  }
+}

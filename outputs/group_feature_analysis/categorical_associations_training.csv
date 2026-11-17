@@ -1,0 +1,22 @@
+﻿feature_1,feature_2,cramers_v,group_1,group_2
+BusinessTravel,Department,0.010910951390104789,Working Conditions,Working Conditions
+BusinessTravel,EducationField,0.06030061664326316,Working Conditions,Employee Profile
+BusinessTravel,Gender,0.05058608825008874,Working Conditions,Gender Equality
+BusinessTravel,JobRole,0.0759785835542382,Working Conditions,Career Development
+BusinessTravel,MaritalStatus,0.039964500885866144,Working Conditions,Employee Profile
+BusinessTravel,OverTime,0.04825371846178266,Working Conditions,Working Conditions
+Department,EducationField,0.5953560061363692,Working Conditions,Employee Profile
+Department,Gender,0.0461380455066094,Working Conditions,Gender Equality
+Department,JobRole,0.946361876818682,Working Conditions,Career Development
+Department,MaritalStatus,0.04809999495343301,Working Conditions,Employee Profile
+Department,OverTime,0.0017264298176671625,Working Conditions,Working Conditions
+EducationField,Gender,0.047399854284436736,Employee Profile,Gender Equality
+EducationField,JobRole,0.34865057346504946,Employee Profile,Career Development
+EducationField,MaritalStatus,0.05659005983272416,Employee Profile,Employee Profile
+EducationField,OverTime,0.04833781095439796,Employee Profile,Working Conditions
+Gender,JobRole,0.13201205143961825,Gender Equality,Career Development
+Gender,MaritalStatus,0.030430780231115905,Gender Equality,Employee Profile
+Gender,OverTime,0.03100301376417303,Gender Equality,Working Conditions
+JobRole,MaritalStatus,0.08126025163714536,Career Development,Employee Profile
+JobRole,OverTime,0.07074326253078637,Career Development,Working Conditions
+MaritalStatus,OverTime,0.02846737030879824,Employee Profile,Working Conditions

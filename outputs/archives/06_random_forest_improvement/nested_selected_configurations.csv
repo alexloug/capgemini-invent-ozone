@@ -1,0 +1,6 @@
+﻿candidate,subset,score_encoding,n_estimators,min_samples_leaf,max_samples,max_features,max_depth,class_weight,outer_fold
+18,Sans profil,numeric,600,1,0.8,1.0,,,0
+2,Sans remuneration,numeric,200,2,,sqrt,,,1
+0,Toutes,numeric,200,2,,sqrt,,,2
+2,Sans remuneration,numeric,200,2,,sqrt,,,3
+2,Sans remuneration,numeric,200,2,,sqrt,,,4

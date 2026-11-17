@@ -24,9 +24,11 @@ Dans les dossiers 04 et 05, les sous-dossiers `details/` regroupent les recherch
 
 ## Les CSV conservés ailleurs
 
-- `outputs/models/*_indices_split_plis.csv` : indispensables à la reproductibilité. Le 05 vérifie sa partition contre celle du 04 ; ne pas les supprimer.
-- `data/variantes/resume_variantes.csv` : dimensions des quatre Excel.
-- `data/variantes/journal_lignes_supprimees.csv` et `journal_valeurs_plafonnees.csv` : trace des traitements simulés ; conserver avec les variantes.
-- `data/variantes/correspondance_lignes.csv` : lien entre lignes des variantes et de la source.
+- `outputs/models/*_indices_split_plis.csv` : indices ordonnés indispensables à la reproduction.
+- `data/variantes/tracabilite/resume_variantes.csv` : dimensions des trois variantes Excel.
+- `data/variantes/tracabilite/journal_lignes_supprimees.csv` et `journal_valeurs_plafonnees.csv` : traitements simulés.
+- `data/variantes/tracabilite/correspondance_lignes.csv` : liens avec la source.
+- `outputs/group_feature_analysis/` : importances groupées, ablations, IC de performance et standardisation sur entraînement.
+- `outputs/archives/06_random_forest_improvement/` : exploration secondaire, pas de nouveau modèle de référence.
 
-Les CSV actuels sont conservés ; les anciens CSV archivés ont été supprimés. Les noms sont conservés pour garder le lien avec les notebooks. Les références du PDF historique peuvent désigner les anciens emplacements.
+La restitution principale se trouve dans `reports/`. Les exports historiques sont conservés comme preuves et dépendances des notebooks ; ils ne sont pas dupliqués dans le dossier des slides. Voir `AUDIT.md` pour les décisions et les manifestes.

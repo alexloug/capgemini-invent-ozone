@@ -1,0 +1,94 @@
+﻿transformed_feature,coefficient,exp_coefficient,direction,interpretation
+binaires__Gender,-0.20117457086544344,0.8177696603350363,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+binaires__OverTime,1.207103735801658,3.3437861265365387,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__BusinessTravel_Non-Travel,-0.4156036243149501,0.6599418035327625,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__BusinessTravel_Travel_Frequently,0.5289043633206109,1.6970719154090526,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__BusinessTravel_Travel_Rarely,-0.11268681350477674,0.8934304266482267,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Department_Human Resources,0.008960711902454592,1.0090009792662367,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Department_Research & Development,-0.26830150346204545,0.7646771935219397,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Department_Sales,0.2599547170604746,1.296871359188775,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EducationField_Human Resources,0.15448812138750428,1.1670604149167294,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EducationField_Life Sciences,-0.14404890765593154,0.8658454005547146,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EducationField_Marketing,0.10737375699693769,1.1133502991890363,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EducationField_Medical,-0.2847868082433822,0.7521745946502737,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EducationField_Other,-0.11935891042799658,0.887489214459593,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EducationField_Technical Degree,0.2869466734437521,1.3323531617753979,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Healthcare Representative,-0.20064288551255835,0.8182045720933306,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Human Resources,0.03360930787314515,1.034180481617094,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Laboratory Technician,0.2895427281743404,1.3358165170887049,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Manager,-0.061953026558944,0.9399270373614151,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Manufacturing Director,0.008875075641439675,1.0089145758946956,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Research Director,-0.17841009991621012,0.8365992638407035,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Research Scientist,-0.28791333607061426,0.7498265723404021,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Sales Executive,0.1993922121266968,1.220660629926457,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobRole_Sales Representative,0.19811394974358848,1.2191013021879988,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__MaritalStatus_Divorced,-0.2777635323343889,0.7574759189004296,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__MaritalStatus_Married,-0.04234020695917973,0.9585436218840603,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__MaritalStatus_Single,0.3207176647944523,1.378116435174577,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_0,0.0023430774931194175,1.002345824644366,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_1,-0.03838140596849466,0.9623458264438676,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_2,-0.005547539104593894,0.9944678200754554,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_3,0.022926028640776194,1.0231908499299054,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_4,0.016030734079090937,1.0161599156653929,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_5,0.009088209089872575,1.009129632254468,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__Education_6,-0.005845178728886812,0.9941718710923737,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EnvironmentSatisfaction_0,0.0600889227848395,1.061930972206357,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EnvironmentSatisfaction_1,0.45532333687666926,1.5766831004135224,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EnvironmentSatisfaction_2,-0.07036553344193379,0.9320530610668901,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EnvironmentSatisfaction_3,-0.2156968002064295,0.805979637690093,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EnvironmentSatisfaction_4,-0.21824990011055356,0.80392451573654,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__EnvironmentSatisfaction_5,-0.01048610040170817,0.9895686870795405,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobInvolvement_0,-0.0664033803241979,0.9357533236714374,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobInvolvement_1,0.550642739410127,1.7343674059819156,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobInvolvement_2,0.09300046461543579,1.0974622451658629,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobInvolvement_3,-0.22670788364211897,0.7971536098913018,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobInvolvement_4,-0.39477418154863053,0.6738321858101533,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobInvolvement_5,0.04485616699026828,1.0458774173929224,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobLevel_0,0.058626676990436326,1.0603793028457769,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobLevel_1,0.34420503460288276,1.4108678825898617,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobLevel_2,-0.5575124577878952,0.5726317392560302,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobLevel_3,0.1910358773341892,1.2105028809186351,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobLevel_4,-0.1574808443416751,0.8542931779999707,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobLevel_5,0.12173963870294582,1.1294599958255922,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobSatisfaction_0,0.1108664286540397,1.117245664880228,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobSatisfaction_1,0.3865044542589212,1.4718269529501207,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobSatisfaction_2,-0.029357688975953988,0.9710690616409893,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobSatisfaction_3,-0.01939050734857901,0.9807962792947975,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobSatisfaction_4,-0.41378522551736396,0.6611429326496858,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__JobSatisfaction_5,-0.034223535570180076,0.9663554656721939,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__PerformanceRating_1,0.08074880009505872,1.0840985369104137,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__PerformanceRating_2,-0.09914873224843661,0.9056080048916773,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__PerformanceRating_3,-0.05766537650226756,0.9439657677203419,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__PerformanceRating_4,0.03542616329335777,1.0360611459608677,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__PerformanceRating_5,0.041253070863171475,1.0421158013225786,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__RelationshipSatisfaction_0,0.0350876903617486,1.0357105266483886,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__RelationshipSatisfaction_1,0.47636607146295645,1.6102123608752936,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__RelationshipSatisfaction_2,-0.09795075385283702,0.9066935538186731,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__RelationshipSatisfaction_3,-0.10781736183926403,0.8977915524555304,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__RelationshipSatisfaction_4,-0.30507172063172017,0.7370705093333411,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__StockOptionLevel_0,0.4412554025289634,1.5546577151532324,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__StockOptionLevel_1,-0.3311616574010619,0.7180890752434775,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__StockOptionLevel_2,-0.2546406725924785,0.7751949967304628,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__StockOptionLevel_3,0.1677805006623944,1.1826769853401782,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__StockOptionLevel_4,-0.022619647696933445,0.9776342585078871,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_0,-0.010750575100177035,0.9893070058049743,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_1,0.4026490450311645,1.4957818474638749,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_2,-0.11687378336980814,0.8896974806948889,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_3,-0.356521252142,0.7001075925255452,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_4,-0.04993923418259532,0.9512872284904688,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_5,0.15282383892925283,1.1651197121272208,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+categories_scores__WorkLifeBalance_6,-0.020774113664953183,0.9794401817366014,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__Age,-0.2385627554354497,0.7877592505311177,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__DailyRate,-0.1346828105878385,0.8739930890810023,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__DistanceFromHome,0.2231332601442561,1.2499871361037502,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__HourlyRate,-0.0010759434208177476,0.9989246351987654,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__MonthlyIncome,-0.19425524777762443,0.8234476942479511,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__MonthlyRate,0.003573677076138545,1.0035800702735331,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__NumCompaniesWorked,0.3196715653212065,1.3766755420878192,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__PercentSalaryHike,-0.056335469224810114,0.9452219898088009,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__TotalWorkingYears,-0.32628322606194415,0.7216007823387798,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__TrainingTimesLastYear,-0.11858042400353054,0.8881803817621845,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__YearsAtCompany,0.11087155044125602,1.1172513871894463,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__YearsInCurrentRole,-0.2683114141157876,0.7646696151086038,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__YearsSinceLastPromotion,0.44486152223821673,1.560274117604423,positive,L2 contribution; exp(beta) is not a category-versus-reference odds ratio
+quantitatives__YearsWithCurrManager,-0.3006710892654503,0.7403212323066022,negative,L2 contribution; exp(beta) is not a category-versus-reference odds ratio

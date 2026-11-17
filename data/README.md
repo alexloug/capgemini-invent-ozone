@@ -16,7 +16,7 @@ Ils sont regroupés dans `variantes/tracabilite/` et doivent rester avec les var
 - `journal_valeurs_plafonnees.csv` : anciennes et nouvelles valeurs de la variante 03.
 - `correspondance_lignes.csv` : correspondance des numéros de ligne entre source et variantes.
 
-Ces CSV ne sont pas des données d’entrée du modèle. Ne pas confondre les versions 03/04 avec des corrections vérifiées : la première supprime des salariés, la seconde suppose des valeurs.
+Ces CSV ne sont pas des données d’entrée du modèle. Ne pas confondre les variantes 02/03 avec des corrections vérifiées : la première supprime des salariés, la seconde suppose des valeurs.
 
 `scripts/create_excel_variants.py` régénère les trois variantes et leurs journaux aux emplacements ci-dessus. Aucune donnée source ni valeur Excel n’a été modifiée lors du rangement.
 

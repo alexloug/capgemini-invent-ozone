@@ -1,0 +1,2 @@
+﻿variable,mean_model_score_difference,stability_low,stability_high,population_n,bootstrap_n,interpretation
+OverTime Yes - No,0.14240032393210036,0.10860351709602624,0.16668545499511864,1214,300,"Ecart moyen de scores standardises sur X_train fixe; non causal, probabilites non calibrees"

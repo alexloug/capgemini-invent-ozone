@@ -1,0 +1,254 @@
+﻿variable_1,variable_2,pearson,spearman,correlation_max_absolue,group_1,group_2
+JobLevel,MonthlyIncome,0.9316085848668021,0.9028597084849798,0.9316085848668021,Career Development,Compensation
+YearsAtCompany,YearsInCurrentRole,0.7420547956219136,0.8444104512437429,0.8444104512437429,Career Development,Career Development
+YearsAtCompany,YearsWithCurrManager,0.7680289060357971,0.8386623906904207,0.8386623906904207,Career Development,Career Development
+MonthlyIncome,TotalWorkingYears,0.7643364773379908,0.7007732632931971,0.7643364773379908,Compensation,Career Development
+JobLevel,TotalWorkingYears,0.7598608563221149,0.710562168591388,0.7598608563221149,Career Development,Career Development
+YearsInCurrentRole,YearsWithCurrManager,0.707722226715499,0.7181965700612881,0.7181965700612881,Career Development,Career Development
+PercentSalaryHike,PerformanceRating,0.6805706339549377,0.5869357151017471,0.6805706339549377,Compensation,Career Development
+Age,TotalWorkingYears,0.6669751522599392,0.6477202916606787,0.6669751522599392,Employee Profile,Career Development
+TotalWorkingYears,YearsAtCompany,0.6362585216124607,0.5950601533549241,0.6362585216124607,Career Development,Career Development
+YearsAtCompany,YearsSinceLastPromotion,0.6052559028595252,0.5035247077671564,0.6052559028595252,Career Development,Career Development
+YearsInCurrentRole,YearsSinceLastPromotion,0.5381768182725122,0.5060727840530572,0.5381768182725122,Career Development,Career Development
+JobLevel,YearsAtCompany,0.5185391570514549,0.46729786027762055,0.5185391570514549,Career Development,Career Development
+MonthlyIncome,YearsAtCompany,0.5090373128885793,0.4699391989837299,0.5090373128885793,Compensation,Career Development
+YearsSinceLastPromotion,YearsWithCurrManager,0.4974325230487077,0.45733449706805135,0.4974325230487077,Career Development,Career Development
+TotalWorkingYears,YearsWithCurrManager,0.4584845695104075,0.4941906190033859,0.4941906190033859,Career Development,Career Development
+TotalWorkingYears,YearsInCurrentRole,0.4559618340098324,0.49399415176796974,0.49399415176796974,Career Development,Career Development
+Age,JobLevel,0.48935253297481357,0.46849775711721514,0.48935253297481357,Employee Profile,Career Development
+Age,MonthlyIncome,0.4797211547476213,0.44960500613445226,0.4797211547476213,Employee Profile,Compensation
+TotalWorkingYears,YearsSinceLastPromotion,0.39800967884558824,0.31933962180313846,0.39800967884558824,Career Development,Career Development
+MonthlyIncome,YearsInCurrentRole,0.3606827596626033,0.397715927155654,0.397715927155654,Compensation,Career Development
+JobLevel,YearsInCurrentRole,0.373850744813077,0.3838415375926507,0.3838415375926507,Career Development,Career Development
+MonthlyIncome,YearsWithCurrManager,0.3441329434014544,0.37402455846244015,0.37402455846244015,Compensation,Career Development
+JobLevel,YearsWithCurrManager,0.3627489189294238,0.3672478559520511,0.3672478559520511,Career Development,Career Development
+Age,NumCompaniesWorked,0.29763261309285327,0.3477364877386449,0.3477364877386449,Employee Profile,Career Development
+MonthlyIncome,YearsSinceLastPromotion,0.3379595603775116,0.2609941196463686,0.3379595603775116,Compensation,Career Development
+JobLevel,YearsSinceLastPromotion,0.33688972627515806,0.25198370310339757,0.33688972627515806,Career Development,Career Development
+Age,YearsAtCompany,0.3088959738557217,0.24833065407042695,0.3088959738557217,Employee Profile,Career Development
+NumCompaniesWorked,TotalWorkingYears,0.22927743455566205,0.29549274270624193,0.29549274270624193,Career Development,Career Development
+Age,YearsInCurrentRole,0.21473907552027846,0.20475971900371168,0.21473907552027846,Employee Profile,Career Development
+Age,Education,0.21248484460186443,0.20933737830637086,0.21248484460186443,Employee Profile,Employee Profile
+Age,YearsSinceLastPromotion,0.20046795340744947,0.16353228312808576,0.20046795340744947,Employee Profile,Career Development
+Age,YearsWithCurrManager,0.19237866527795533,0.18578501686774632,0.19237866527795533,Employee Profile,Career Development
+NumCompaniesWorked,YearsAtCompany,-0.11898036374830452,-0.17903779792889218,0.17903779792889218,Career Development,Career Development
+Education,TotalWorkingYears,0.16281225797581808,0.1729771587904662,0.1729771587904662,Employee Profile,Career Development
+MonthlyIncome,NumCompaniesWorked,0.13904267556891098,0.16260641637204262,0.16260641637204262,Compensation,Career Development
+JobLevel,NumCompaniesWorked,0.13097528192893693,0.1518411797730894,0.1518411797730894,Career Development,Career Development
+NumCompaniesWorked,YearsWithCurrManager,-0.1132881554652574,-0.14889658053459245,0.14889658053459245,Career Development,Career Development
+Education,NumCompaniesWorked,0.11195087436902641,0.12739439593867374,0.12739439593867374,Employee Profile,Career Development
+NumCompaniesWorked,YearsInCurrentRole,-0.08653227320424062,-0.1237254993031986,0.1237254993031986,Career Development,Career Development
+Education,MonthlyIncome,0.09607545815932263,0.12191110876557974,0.12191110876557974,Employee Profile,Compensation
+Education,JobLevel,0.1022645891419878,0.11081217228341007,0.11081217228341007,Employee Profile,Career Development
+HourlyRate,JobSatisfaction,-0.08443951327745886,-0.08322782553980251,0.08443951327745886,Compensation,Engagement & Satisfaction
+RelationshipSatisfaction,StockOptionLevel,-0.06277920421207218,-0.07399402567577944,0.07399402567577944,Engagement & Satisfaction,Compensation
+Education,YearsWithCurrManager,0.07200807609638697,0.053917289913473,0.07200807609638697,Employee Profile,Career Development
+Education,YearsAtCompany,0.07063392485276465,0.05697790911446329,0.07063392485276465,Employee Profile,Career Development
+RelationshipSatisfaction,WorkLifeBalance,0.06913456285221611,0.06043897882426186,0.06913456285221611,Engagement & Satisfaction,Working Conditions
+EnvironmentSatisfaction,MonthlyRate,0.06495126902737655,0.06285594523211017,0.06495126902737655,Working Conditions,Compensation
+JobLevel,MonthlyRate,0.059622356753906314,0.0649486242306287,0.0649486242306287,Career Development,Compensation
+NumCompaniesWorked,YearsSinceLastPromotion,-0.030535605859493893,-0.06301789396219838,0.06301789396219838,Career Development,Career Development
+Age,StockOptionLevel,0.04618365511633664,0.06203525593021375,0.06203525593021375,Employee Profile,Compensation
+MonthlyIncome,MonthlyRate,0.04916813782680548,0.060722403055689024,0.060722403055689024,Compensation,Compensation
+StockOptionLevel,YearsInCurrentRole,0.03563003975884877,0.059577843717297546,0.059577843717297546,Compensation,Career Development
+DistanceFromHome,JobLevel,0.049473962254037517,0.057689363233331244,0.057689363233331244,Employee Profile,Career Development
+Age,WorkLifeBalance,-0.056264386447485576,-0.02573603452793353,0.056264386447485576,Employee Profile,Working Conditions
+JobSatisfaction,NumCompaniesWorked,-0.05624224506709387,-0.05309765664114526,0.05624224506709387,Engagement & Satisfaction,Career Development
+HourlyRate,StockOptionLevel,0.05574162764575598,0.051498081837894366,0.05574162764575598,Compensation,Compensation
+MonthlyRate,StockOptionLevel,-0.046063018423659875,-0.055476954715012586,0.055476954715012586,Compensation,Compensation
+PerformanceRating,YearsInCurrentRole,0.055296124694384635,0.0540472189168799,0.055296124694384635,Career Development,Career Development
+DailyRate,StockOptionLevel,0.0549122325031095,0.047741657724225145,0.0549122325031095,Compensation,Compensation
+Age,MonthlyRate,0.05376575121143414,0.04360167953759725,0.05376575121143414,Employee Profile,Compensation
+Education,WorkLifeBalance,0.05124651204651495,0.040629718182296166,0.05124651204651495,Employee Profile,Working Conditions
+Education,YearsInCurrentRole,0.05066155990098994,0.04760891885542935,0.05066155990098994,Employee Profile,Career Development
+EnvironmentSatisfaction,WorkLifeBalance,0.048801291405716936,0.050208824312162476,0.050208824312162476,Working Conditions,Working Conditions
+EnvironmentSatisfaction,RelationshipSatisfaction,0.049405580532147414,0.04422150064381157,0.049405580532147414,Working Conditions,Engagement & Satisfaction
+DailyRate,MonthlyRate,-0.04783175069870799,-0.04918872339415844,0.04918872339415844,Compensation,Compensation
+PerformanceRating,YearsAtCompany,0.032273708248751795,0.048827257730167856,0.048827257730167856,Career Development,Career Development
+NumCompaniesWorked,RelationshipSatisfaction,0.04844940508145453,0.03688518059075472,0.04844940508145453,Career Development,Engagement & Satisfaction
+Age,HourlyRate,0.04737249685117681,0.04834604186148635,0.04834604186148635,Employee Profile,Compensation
+PercentSalaryHike,YearsSinceLastPromotion,-0.02224124312062569,-0.0475810558364112,0.0475810558364112,Compensation,Career Development
+DailyRate,NumCompaniesWorked,0.047340216246337004,0.042298143592797294,0.047340216246337004,Compensation,Career Development
+JobInvolvement,PerformanceRating,-0.015752734520563576,-0.04721009767650408,0.04721009767650408,Engagement & Satisfaction,Career Development
+DistanceFromHome,MonthlyRate,0.03590555448450484,0.046918081940014726,0.046918081940014726,Employee Profile,Compensation
+DistanceFromHome,TotalWorkingYears,0.0468742879388207,0.04100462702910255,0.0468742879388207,Employee Profile,Career Development
+WorkLifeBalance,YearsInCurrentRole,0.046788411181686015,0.026040854730872542,0.046788411181686015,Working Conditions,Career Development
+StockOptionLevel,YearsAtCompany,-0.008986036906198949,0.046740440946249635,0.046740440946249635,Compensation,Career Development
+Age,RelationshipSatisfaction,0.045918269477140165,0.037706456745336736,0.045918269477140165,Employee Profile,Engagement & Satisfaction
+PerformanceRating,TotalWorkingYears,0.03074930969891636,0.045730731114815175,0.045730731114815175,Career Development,Career Development
+Education,YearsSinceLastPromotion,0.04479319324308485,0.023516915132607254,0.04479319324308485,Employee Profile,Career Development
+MonthlyRate,TotalWorkingYears,0.04424171814377745,0.027150593276372873,0.04424171814377745,Compensation,Career Development
+DistanceFromHome,TrainingTimesLastYear,-0.04419831394862317,-0.03526369856833927,0.04419831394862317,Employee Profile,Career Development
+Education,HourlyRate,0.043770251815684086,0.03944040831005822,0.043770251815684086,Employee Profile,Compensation
+DistanceFromHome,StockOptionLevel,0.042854014985611553,0.02299941357505445,0.042854014985611553,Employee Profile,Compensation
+DistanceFromHome,PercentSalaryHike,0.04263322572941192,0.04066766088168148,0.04263322572941192,Employee Profile,Compensation
+RelationshipSatisfaction,TrainingTimesLastYear,0.033683070400073824,0.04216566454417178,0.04216566454417178,Engagement & Satisfaction,Career Development
+JobLevel,WorkLifeBalance,0.024363629439557676,0.04204937990194387,0.04204937990194387,Career Development,Working Conditions
+RelationshipSatisfaction,YearsSinceLastPromotion,0.041927697259377346,0.020896309727445772,0.041927697259377346,Engagement & Satisfaction,Career Development
+JobInvolvement,JobSatisfaction,-0.0407878941068247,-0.022368422734721616,0.0407878941068247,Engagement & Satisfaction,Engagement & Satisfaction
+EnvironmentSatisfaction,HourlyRate,-0.03809307092032452,-0.04071374998997572,0.04071374998997572,Working Conditions,Compensation
+PercentSalaryHike,StockOptionLevel,0.022317508272949576,0.04057024208004516,0.04057024208004516,Compensation,Compensation
+DistanceFromHome,YearsInCurrentRole,0.04038742069554804,0.039538135800696275,0.04038742069554804,Employee Profile,Career Development
+PerformanceRating,YearsWithCurrManager,0.03987895712244302,0.040284704418230094,0.040284704418230094,Career Development,Career Development
+HourlyRate,NumCompaniesWorked,0.03794287435263334,0.03971370086651451,0.03971370086651451,Compensation,Career Development
+JobInvolvement,TrainingTimesLastYear,-0.03928396795240245,-0.018215379557652674,0.03928396795240245,Engagement & Satisfaction,Career Development
+JobSatisfaction,YearsWithCurrManager,-0.039270159961009715,-0.034631209580403395,0.039270159961009715,Engagement & Satisfaction,Career Development
+TrainingTimesLastYear,WorkLifeBalance,0.028801836745320192,0.03900069302792373,0.03900069302792373,Career Development,Working Conditions
+Age,DistanceFromHome,0.038984214601665144,0.013127054874307036,0.038984214601665144,Employee Profile,Employee Profile
+HourlyRate,YearsSinceLastPromotion,-0.021587432688136933,-0.03815865429941379,0.03815865429941379,Compensation,Career Development
+PercentSalaryHike,YearsAtCompany,-0.025273567349103902,-0.03774305545485947,0.03774305545485947,Compensation,Career Development
+PerformanceRating,YearsSinceLastPromotion,0.0372875454753466,0.0199150159600976,0.0372875454753466,Career Development,Career Development
+DistanceFromHome,JobInvolvement,0.011626726563289853,0.03717239025333406,0.03717239025333406,Employee Profile,Engagement & Satisfaction
+EnvironmentSatisfaction,TrainingTimesLastYear,-0.0365324513882889,-0.028436412224494095,0.0365324513882889,Working Conditions,Career Development
+JobInvolvement,YearsSinceLastPromotion,-0.03626148062008141,-0.006285666565179589,0.03626148062008141,Engagement & Satisfaction,Career Development
+DistanceFromHome,YearsAtCompany,0.033720515300905786,0.035974333395166175,0.035974333395166175,Employee Profile,Career Development
+Education,EnvironmentSatisfaction,-0.035669598476198446,-0.03597123436299474,0.03597123436299474,Employee Profile,Working Conditions
+StockOptionLevel,YearsSinceLastPromotion,-0.03542214031242498,-0.005115119956247211,0.03542214031242498,Compensation,Career Development
+MonthlyIncome,StockOptionLevel,-0.035326422870591886,0.015727634601792294,0.035326422870591886,Compensation,Compensation
+HourlyRate,YearsInCurrentRole,-0.026664446651886282,-0.03502993154138283,0.03502993154138283,Compensation,Career Development
+JobInvolvement,YearsAtCompany,-0.034844158346293085,-0.015081715195897181,0.034844158346293085,Engagement & Satisfaction,Career Development
+PercentSalaryHike,RelationshipSatisfaction,-0.03475549689979473,-0.022748751847757032,0.03475549689979473,Compensation,Engagement & Satisfaction
+Age,PerformanceRating,0.03276411499023857,0.03458066523980735,0.03458066523980735,Employee Profile,Career Development
+DailyRate,YearsSinceLastPromotion,-0.025865291243802328,-0.033995667351001485,0.033995667351001485,Compensation,Career Development
+DailyRate,MonthlyIncome,0.025241417618974343,0.03383909412040952,0.03383909412040952,Compensation,Compensation
+NumCompaniesWorked,TrainingTimesLastYear,-0.033369013152141615,-0.03378014779750383,0.03378014779750383,Career Development,Career Development
+Education,StockOptionLevel,0.033363925659827404,0.019729626011680733,0.033363925659827404,Employee Profile,Compensation
+StockOptionLevel,YearsWithCurrManager,0.0033650192742082806,0.03321764903635819,0.03321764903635819,Compensation,Career Development
+HourlyRate,JobLevel,-0.03079382520536962,-0.033129743036935715,0.033129743036935715,Compensation,Career Development
+MonthlyRate,YearsWithCurrManager,-0.03201387244262864,-0.03289684814406577,0.03289684814406577,Compensation,Career Development
+DailyRate,WorkLifeBalance,-0.030336362321949556,-0.032840461022657315,0.032840461022657315,Compensation,Working Conditions
+NumCompaniesWorked,PercentSalaryHike,-0.03267600872169138,-0.027751192546560045,0.03267600872169138,Career Development,Compensation
+StockOptionLevel,WorkLifeBalance,0.03248969340104994,0.009501044372035803,0.03248969340104994,Compensation,Working Conditions
+RelationshipSatisfaction,YearsInCurrentRole,-0.02576352011721149,-0.03223226547102671,0.03223226547102671,Engagement & Satisfaction,Career Development
+DistanceFromHome,YearsSinceLastPromotion,0.032078364072960615,0.02120800539433013,0.032078364072960615,Employee Profile,Career Development
+DailyRate,YearsAtCompany,-0.031245088264277153,0.0007577141075699522,0.031245088264277153,Compensation,Career Development
+EnvironmentSatisfaction,PercentSalaryHike,-0.029971981121980906,-0.03119039769183465,0.03119039769183465,Working Conditions,Compensation
+JobSatisfaction,YearsSinceLastPromotion,-0.031112550922210585,-0.008903907927272064,0.031112550922210585,Engagement & Satisfaction,Career Development
+Age,EnvironmentSatisfaction,0.02988023968822156,0.031084417596567975,0.031084417596567975,Employee Profile,Working Conditions
+MonthlyIncome,WorkLifeBalance,0.019748402696038055,0.030527492803698358,0.030527492803698358,Compensation,Working Conditions
+DistanceFromHome,MonthlyIncome,0.023315943666059602,0.030347297939001247,0.030347297939001247,Employee Profile,Compensation
+DailyRate,YearsWithCurrManager,-0.03020694664141268,-0.0035888671245627884,0.03020694664141268,Compensation,Career Development
+PerformanceRating,RelationshipSatisfaction,-0.01689071946563169,-0.02990316136106099,0.02990316136106099,Career Development,Engagement & Satisfaction
+MonthlyRate,PercentSalaryHike,-0.02457512495312236,-0.02984575558026216,0.02984575558026216,Compensation,Compensation
+DailyRate,HourlyRate,0.029739938529255636,0.02969135971273576,0.029739938529255636,Compensation,Compensation
+DistanceFromHome,Education,0.02972487344565229,0.017991651456419108,0.02972487344565229,Employee Profile,Employee Profile
+DailyRate,JobInvolvement,0.02968678133839095,0.01844102188479147,0.02968678133839095,Compensation,Engagement & Satisfaction
+MonthlyIncome,PercentSalaryHike,-0.02038621024366913,-0.029596515189980483,0.029596515189980483,Compensation,Compensation
+JobSatisfaction,PercentSalaryHike,0.02899805073122831,0.028005022420103665,0.02899805073122831,Engagement & Satisfaction,Compensation
+DistanceFromHome,JobSatisfaction,-0.01411847741298023,-0.02877320190753098,0.02877320190753098,Employee Profile,Engagement & Satisfaction
+JobLevel,PercentSalaryHike,-0.027642402710530964,-0.02822675403325663,0.02822675403325663,Career Development,Compensation
+RelationshipSatisfaction,YearsWithCurrManager,-0.027471484469784202,-0.027736815875142273,0.027736815875142273,Engagement & Satisfaction,Career Development
+JobSatisfaction,WorkLifeBalance,-0.021373847820691745,-0.02760964636091548,0.02760964636091548,Engagement & Satisfaction,Working Conditions
+DailyRate,TotalWorkingYears,0.019490755095614654,0.027575318113232675,0.027575318113232675,Compensation,Career Development
+JobInvolvement,JobLevel,-0.025977328026659516,-0.027541474910321637,0.027541474910321637,Engagement & Satisfaction,Career Development
+JobLevel,StockOptionLevel,-0.012094530962380083,0.027294096239242976,0.027294096239242976,Career Development,Compensation
+DistanceFromHome,HourlyRate,0.026868847276842727,0.016159815010547796,0.026868847276842727,Employee Profile,Compensation
+PercentSalaryHike,YearsWithCurrManager,-0.00906553038454066,-0.0265662599533405,0.0265662599533405,Compensation,Career Development
+HourlyRate,TrainingTimesLastYear,-0.02645812106584557,-0.014476315284134901,0.02645812106584557,Compensation,Career Development
+EnvironmentSatisfaction,PerformanceRating,-0.02637748873431114,-0.025526233512564216,0.02637748873431114,Working Conditions,Career Development
+HourlyRate,JobInvolvement,0.020983849627796144,0.025958736613888388,0.025958736613888388,Compensation,Engagement & Satisfaction
+HourlyRate,YearsAtCompany,-0.02435816620460884,-0.025928768958124866,0.025928768958124866,Compensation,Career Development
+DailyRate,EnvironmentSatisfaction,0.025452438212855824,0.02575759998780275,0.02575759998780275,Compensation,Working Conditions
+DistanceFromHome,RelationshipSatisfaction,0.019090596611516568,0.025731747905313917,0.025731747905313917,Employee Profile,Engagement & Satisfaction
+JobInvolvement,StockOptionLevel,0.007245447239503579,0.025651193392918634,0.025651193392918634,Engagement & Satisfaction,Compensation
+NumCompaniesWorked,WorkLifeBalance,-0.025537830586219733,-0.0040867571555822345,0.025537830586219733,Career Development,Working Conditions
+PerformanceRating,StockOptionLevel,0.013088631882596659,0.025068308420697603,0.025068308420697603,Career Development,Compensation
+JobInvolvement,MonthlyRate,-0.024501847875524743,-0.02155147720342842,0.024501847875524743,Engagement & Satisfaction,Compensation
+Age,PercentSalaryHike,0.019841489260763,0.024311528113566412,0.024311528113566412,Employee Profile,Compensation
+DailyRate,JobLevel,0.024186816630826752,0.02302465371673784,0.024186816630826752,Compensation,Career Development
+MonthlyRate,YearsSinceLastPromotion,0.024177197564725077,0.003069969346967403,0.024177197564725077,Compensation,Career Development
+TotalWorkingYears,TrainingTimesLastYear,-0.023824953837767088,-0.01142831176354161,0.023824953837767088,Career Development,Career Development
+StockOptionLevel,TotalWorkingYears,-0.021179095551174528,0.02381176454047879,0.02381176454047879,Compensation,Career Development
+TotalWorkingYears,WorkLifeBalance,-0.023629859105429318,-0.01074802474389256,0.023629859105429318,Career Development,Working Conditions
+Education,MonthlyRate,-0.023550744758364373,-0.01974087709364446,0.023550744758364373,Employee Profile,Compensation
+JobSatisfaction,StockOptionLevel,0.01638007964727037,0.02286046273115233,0.02286046273115233,Engagement & Satisfaction,Compensation
+JobSatisfaction,YearsInCurrentRole,-0.020420339247066602,-0.022802112443576664,0.022802112443576664,Engagement & Satisfaction,Career Development
+EnvironmentSatisfaction,YearsSinceLastPromotion,0.012411364749481605,0.022442078674459177,0.022442078674459177,Working Conditions,Career Development
+Age,JobInvolvement,0.006791167773941137,0.02195539951037635,0.02195539951037635,Employee Profile,Engagement & Satisfaction
+MonthlyIncome,TrainingTimesLastYear,-0.006623399900339116,-0.021725483594344105,0.021725483594344105,Compensation,Career Development
+DailyRate,JobSatisfaction,0.021581375104886277,0.016409318614346007,0.021581375104886277,Compensation,Engagement & Satisfaction
+Education,RelationshipSatisfaction,0.021536390596214275,0.015550146824131006,0.021536390596214275,Employee Profile,Engagement & Satisfaction
+StockOptionLevel,TrainingTimesLastYear,0.02145094306615799,0.012861783431544652,0.02145094306615799,Compensation,Career Development
+RelationshipSatisfaction,TotalWorkingYears,0.02111957173460948,-0.006285205499064648,0.02111957173460948,Engagement & Satisfaction,Career Development
+NumCompaniesWorked,StockOptionLevel,0.007541843940317331,0.020600463998202572,0.020600463998202572,Career Development,Compensation
+DistanceFromHome,YearsWithCurrManager,0.020374893513597885,0.018271295814817453,0.020374893513597885,Employee Profile,Career Development
+JobInvolvement,MonthlyIncome,-0.008695793980402728,-0.02031754267605922,0.02031754267605922,Engagement & Satisfaction,Compensation
+JobInvolvement,RelationshipSatisfaction,0.02031282233779052,0.019384682705604585,0.02031282233779052,Engagement & Satisfaction,Engagement & Satisfaction
+JobInvolvement,PercentSalaryHike,-0.020224669447322274,-0.015777360074838157,0.020224669447322274,Engagement & Satisfaction,Compensation
+RelationshipSatisfaction,YearsAtCompany,0.008046251122433528,-0.020120309660566695,0.020120309660566695,Engagement & Satisfaction,Career Development
+HourlyRate,YearsWithCurrManager,-0.020106936711453447,-0.010948785413304232,0.020106936711453447,Compensation,Career Development
+HourlyRate,PercentSalaryHike,-0.01897170546777931,-0.02004942042297301,0.02004942042297301,Compensation,Compensation
+MonthlyRate,NumCompaniesWorked,0.019853084533184993,0.01719246030864085,0.019853084533184993,Compensation,Career Development
+TrainingTimesLastYear,YearsWithCurrManager,-0.010492296177954984,-0.01886007146829644,0.01886007146829644,Career Development,Career Development
+DailyRate,Education,0.015214865491025112,0.018544161006188487,0.018544161006188487,Compensation,Employee Profile
+EnvironmentSatisfaction,TotalWorkingYears,0.018542157118939296,0.003488974477189843,0.018542157118939296,Working Conditions,Career Development
+JobSatisfaction,TotalWorkingYears,-0.01605796914365295,-0.018060922598354567,0.018060922598354567,Engagement & Satisfaction,Career Development
+DailyRate,TrainingTimesLastYear,-0.0007373122119812637,-0.01785000922196451,0.01785000922196451,Compensation,Career Development
+DailyRate,YearsInCurrentRole,0.014761956846905205,0.01748577318709892,0.01748577318709892,Compensation,Career Development
+MonthlyRate,TrainingTimesLastYear,0.017198762559564998,0.0005157787411099503,0.017198762559564998,Compensation,Career Development
+HourlyRate,WorkLifeBalance,-0.010864684674120079,-0.017107132243164104,0.017107132243164104,Compensation,Working Conditions
+WorkLifeBalance,YearsWithCurrManager,0.016709145358569717,0.009006974350773035,0.016709145358569717,Working Conditions,Career Development
+EnvironmentSatisfaction,JobLevel,0.016565325047817644,0.007003630148312727,0.016565325047817644,Working Conditions,Career Development
+MonthlyRate,YearsAtCompany,-0.001070324310706607,-0.016205478254602963,0.016205478254602963,Compensation,Career Development
+JobSatisfaction,YearsAtCompany,-0.016147802297152646,-0.006719940020080604,0.016147802297152646,Engagement & Satisfaction,Career Development
+JobInvolvement,YearsWithCurrManager,0.010794999046919766,0.015196456230788169,0.015196456230788169,Engagement & Satisfaction,Career Development
+PercentSalaryHike,YearsInCurrentRole,0.015091750101884112,-0.006983863148241919,0.015091750101884112,Compensation,Career Development
+EnvironmentSatisfaction,JobInvolvement,0.001733595790790809,-0.015008388882224328,0.015008388882224328,Working Conditions,Engagement & Satisfaction
+JobSatisfaction,TrainingTimesLastYear,-0.008836095416635662,-0.014896182288711438,0.014896182288711438,Engagement & Satisfaction,Career Development
+DailyRate,RelationshipSatisfaction,0.010665112307474241,0.014769831416716875,0.014769831416716875,Compensation,Engagement & Satisfaction
+JobSatisfaction,MonthlyRate,-0.008559367261740612,-0.014685773678869028,0.014685773678869028,Engagement & Satisfaction,Compensation
+PerformanceRating,WorkLifeBalance,-0.01434350287402304,-0.003474606059470143,0.01434350287402304,Career Development,Working Conditions
+MonthlyRate,WorkLifeBalance,0.0141472361428023,0.01430229442157972,0.01430229442157972,Compensation,Working Conditions
+PercentSalaryHike,TotalWorkingYears,-0.01211725073786236,-0.014300213534414812,0.014300213534414812,Compensation,Career Development
+DailyRate,PerformanceRating,0.014154044412119185,0.0034811288897591435,0.014154044412119185,Compensation,Career Development
+MonthlyIncome,RelationshipSatisfaction,0.013995013361363502,-0.012208572618283314,0.013995013361363502,Compensation,Engagement & Satisfaction
+JobInvolvement,WorkLifeBalance,0.0015462082544636946,-0.013963997816733457,0.013963997816733457,Engagement & Satisfaction,Working Conditions
+EnvironmentSatisfaction,YearsAtCompany,0.01322147507134827,0.00214802801912016,0.01322147507134827,Working Conditions,Career Development
+JobInvolvement,TotalWorkingYears,-0.013104155491908234,-0.00774060875846865,0.013104155491908234,Engagement & Satisfaction,Career Development
+DistanceFromHome,PerformanceRating,0.011162583812418653,0.012949435385444167,0.012949435385444167,Employee Profile,Career Development
+HourlyRate,MonthlyIncome,-0.012355542197406276,-0.008221031693990806,0.012355542197406276,Compensation,Compensation
+WorkLifeBalance,YearsSinceLastPromotion,0.010933374184105248,0.012339924164161997,0.012339924164161997,Working Conditions,Career Development
+Age,TrainingTimesLastYear,-0.011948273475413418,0.0029305554567402377,0.011948273475413418,Employee Profile,Career Development
+EnvironmentSatisfaction,StockOptionLevel,0.007500873139649261,0.011912449412412538,0.011912449412412538,Working Conditions,Compensation
+DistanceFromHome,WorkLifeBalance,-0.011741897182900364,0.001382535549304824,0.011741897182900364,Employee Profile,Working Conditions
+DistanceFromHome,NumCompaniesWorked,-0.01147523083520847,-0.001347364678932238,0.01147523083520847,Employee Profile,Career Development
+HourlyRate,PerformanceRating,0.011366672472335365,0.011129916361381694,0.011366672472335365,Compensation,Career Development
+TrainingTimesLastYear,YearsSinceLastPromotion,-0.011096863862907902,-0.008570054932253551,0.011096863862907902,Career Development,Career Development
+Education,PercentSalaryHike,-0.010864655169315458,-0.00018714101104190647,0.010864655169315458,Employee Profile,Compensation
+HourlyRate,TotalWorkingYears,0.01074831254234879,0.007315082236693915,0.01074831254234879,Compensation,Career Development
+TrainingTimesLastYear,YearsAtCompany,0.0023942876569490665,-0.010680419174766144,0.010680419174766144,Career Development,Career Development
+Education,JobSatisfaction,-0.010620556697090985,-0.006518243225288652,0.010620556697090985,Employee Profile,Engagement & Satisfaction
+JobLevel,RelationshipSatisfaction,0.01052849855497583,-5.1535175772843375e-06,0.01052849855497583,Career Development,Engagement & Satisfaction
+JobSatisfaction,RelationshipSatisfaction,0.01011123938625851,0.005171309704533755,0.01011123938625851,Engagement & Satisfaction,Engagement & Satisfaction
+EnvironmentSatisfaction,JobSatisfaction,0.009201646963589319,0.010013578361311469,0.010013578361311469,Working Conditions,Engagement & Satisfaction
+DistanceFromHome,EnvironmentSatisfaction,0.008051990362268509,0.009960112101936506,0.009960112101936506,Employee Profile,Working Conditions
+Education,TrainingTimesLastYear,0.009655937582522471,0.006891123561874818,0.009655937582522471,Employee Profile,Career Development
+PerformanceRating,TrainingTimesLastYear,0.009620165599228708,0.0014194972898884685,0.009620165599228708,Career Development,Career Development
+EnvironmentSatisfaction,NumCompaniesWorked,0.00912872356124625,0.0006628532212914018,0.00912872356124625,Working Conditions,Career Development
+NumCompaniesWorked,PerformanceRating,0.008950785946692073,0.0005952876286836294,0.008950785946692073,Career Development,Career Development
+JobSatisfaction,PerformanceRating,-0.0014571871379682989,0.008677658271651916,0.008677658271651916,Engagement & Satisfaction,Career Development
+Age,DailyRate,0.008395054118188472,0.0049617444967431585,0.008395054118188472,Employee Profile,Compensation
+DailyRate,PercentSalaryHike,0.003467973273680878,0.008267702850982491,0.008267702850982491,Compensation,Compensation
+Education,JobInvolvement,0.0008624433046207255,0.00817293388928784,0.00817293388928784,Employee Profile,Engagement & Satisfaction
+JobLevel,PerformanceRating,0.0075055960352745504,0.007800242752434749,0.007800242752434749,Career Development,Career Development
+EnvironmentSatisfaction,YearsInCurrentRole,0.007747995999233232,0.006085307086543373,0.007747995999233232,Working Conditions,Career Development
+MonthlyRate,PerformanceRating,-0.007381652767573485,-0.007278556037337939,0.007381652767573485,Compensation,Career Development
+JobSatisfaction,MonthlyIncome,-0.007360136764086752,-0.0006499659271200587,0.007360136764086752,Engagement & Satisfaction,Compensation
+JobLevel,TrainingTimesLastYear,0.006837471425477841,-0.005824158799404349,0.006837471425477841,Career Development,Career Development
+PercentSalaryHike,TrainingTimesLastYear,-0.0066061840151811395,0.0009916067558675748,0.0066061840151811395,Compensation,Career Development
+WorkLifeBalance,YearsAtCompany,0.005936368160167962,0.00141224318721584,0.005936368160167962,Working Conditions,Career Development
+PercentSalaryHike,WorkLifeBalance,0.005112619324975536,0.004417003924212501,0.005112619324975536,Compensation,Working Conditions
+JobInvolvement,NumCompaniesWorked,0.002524121664046235,0.005085550376098623,0.005085550376098623,Engagement & Satisfaction,Career Development
+DailyRate,DistanceFromHome,-0.003709447358671444,-0.004912857468624553,0.004912857468624553,Compensation,Employee Profile
+MonthlyRate,RelationshipSatisfaction,0.0020102675690760767,0.0047873140759881845,0.0047873140759881845,Compensation,Engagement & Satisfaction
+EnvironmentSatisfaction,MonthlyIncome,0.004633994817133322,-0.0040275544834354636,0.004633994817133322,Working Conditions,Compensation
+MonthlyIncome,PerformanceRating,0.004019723560036606,-0.002885031901975175,0.004019723560036606,Compensation,Career Development
+JobLevel,JobSatisfaction,0.003934367064624407,0.003064539418003895,0.003934367064624407,Career Development,Engagement & Satisfaction
+HourlyRate,RelationshipSatisfaction,0.0031500236679583493,0.0035649882698255736,0.0035649882698255736,Compensation,Engagement & Satisfaction
+JobInvolvement,YearsInCurrentRole,-0.0029930235174155653,-0.00016222894875867418,0.0029930235174155653,Engagement & Satisfaction,Career Development
+MonthlyRate,YearsInCurrentRole,-0.0026426248133539967,0.0020185247644950908,0.0026426248133539967,Compensation,Career Development
+HourlyRate,MonthlyRate,0.0023213941165345607,0.0026409892790514007,0.0026409892790514007,Compensation,Compensation
+TrainingTimesLastYear,YearsInCurrentRole,-0.0026091793823663618,0.0010367604568168923,0.0026091793823663618,Career Development,Career Development
+Education,PerformanceRating,0.0016370293510078163,0.0018944111748103655,0.0018944111748103655,Employee Profile,Career Development
+Age,JobSatisfaction,-0.0004206421601869261,-0.0017190831167646701,0.0017190831167646701,Employee Profile,Engagement & Satisfaction
+EnvironmentSatisfaction,YearsWithCurrManager,-0.0002591658605137128,-0.00039969852797940784,0.00039969852797940784,Working Conditions,Career Development

@@ -1,0 +1,21 @@
+﻿candidate,subset,score_encoding,n_estimators,max_depth,min_samples_leaf,max_features,class_weight,max_samples
+0,Toutes,numeric,200,,2,sqrt,,
+1,Toutes,onehot,200,,2,sqrt,,
+2,Sans remuneration,numeric,200,,2,sqrt,,
+3,Sans remuneration,onehot,200,,2,sqrt,,
+4,Sans profil,numeric,200,,2,sqrt,,
+5,Sans profil,onehot,200,,2,sqrt,,
+6,Sans remuneration ni profil,numeric,200,,2,sqrt,,
+7,Sans remuneration ni profil,onehot,200,,2,sqrt,,
+8,Sans profil,onehot,200,16.0,4,sqrt,balanced_subsample,0.8
+9,Toutes,onehot,600,16.0,2,sqrt,,0.8
+10,Sans profil,onehot,600,,1,0.5,balanced,
+11,Sans profil,numeric,600,16.0,4,1.0,,0.8
+12,Sans remuneration ni profil,onehot,200,16.0,1,1.0,,0.8
+13,Toutes,onehot,200,16.0,2,sqrt,balanced_subsample,
+14,Sans profil,onehot,200,8.0,4,sqrt,balanced,0.8
+15,Sans remuneration,numeric,600,16.0,8,0.5,balanced,0.8
+16,Sans profil,numeric,200,8.0,2,sqrt,,0.8
+17,Sans profil,onehot,200,,2,sqrt,balanced,0.8
+18,Sans profil,numeric,600,,1,1.0,,0.8
+19,Sans profil,numeric,600,,1,1.0,balanced,0.8
