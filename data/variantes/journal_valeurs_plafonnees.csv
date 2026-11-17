@@ -1,0 +1,27 @@
+﻿ligne_excel_source,EmployeeNumber_source,variable,ancienne_valeur,nouvelle_valeur,plafond_utilise,statut
+1484,1483,YearsAtCompany,5,3,TotalWorkingYears,Simulation : valeur réelle inconnue
+1486,1485,YearsAtCompany,18,17,TotalWorkingYears,Simulation : valeur réelle inconnue
+1495,1494,YearsAtCompany,3,0,TotalWorkingYears,Simulation : valeur réelle inconnue
+1502,1501,YearsAtCompany,6,4,TotalWorkingYears,Simulation : valeur réelle inconnue
+1515,1514,YearsAtCompany,9,8,TotalWorkingYears,Simulation : valeur réelle inconnue
+1516,1515,YearsAtCompany,5,3,TotalWorkingYears,Simulation : valeur réelle inconnue
+1472,1471,YearsInCurrentRole,12,10,YearsAtCompany,Simulation : valeur réelle inconnue
+1474,1473,YearsInCurrentRole,3,2,YearsAtCompany,Simulation : valeur réelle inconnue
+1475,1474,YearsInCurrentRole,8,6,YearsAtCompany,Simulation : valeur réelle inconnue
+1479,1478,YearsInCurrentRole,3,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1484,1483,YearsInCurrentRole,4,3,YearsAtCompany,Simulation : valeur réelle inconnue
+1489,1488,YearsInCurrentRole,1,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1497,1496,YearsInCurrentRole,2,1,YearsAtCompany,Simulation : valeur réelle inconnue
+1501,1500,YearsInCurrentRole,3,1,YearsAtCompany,Simulation : valeur réelle inconnue
+1515,1514,YearsInCurrentRole,9,8,YearsAtCompany,Simulation : valeur réelle inconnue
+1479,1478,YearsSinceLastPromotion,1,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1481,1480,YearsSinceLastPromotion,2,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1495,1494,YearsSinceLastPromotion,3,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1496,1495,YearsSinceLastPromotion,5,4,YearsAtCompany,Simulation : valeur réelle inconnue
+1501,1500,YearsSinceLastPromotion,4,1,YearsAtCompany,Simulation : valeur réelle inconnue
+1475,1474,YearsWithCurrManager,9,6,YearsAtCompany,Simulation : valeur réelle inconnue
+1476,1475,YearsWithCurrManager,4,3,YearsAtCompany,Simulation : valeur réelle inconnue
+1488,1487,YearsWithCurrManager,2,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1505,1504,YearsWithCurrManager,1,0,YearsAtCompany,Simulation : valeur réelle inconnue
+1510,1509,YearsWithCurrManager,4,3,YearsAtCompany,Simulation : valeur réelle inconnue
+1517,1516,YearsWithCurrManager,1,0,YearsAtCompany,Simulation : valeur réelle inconnue

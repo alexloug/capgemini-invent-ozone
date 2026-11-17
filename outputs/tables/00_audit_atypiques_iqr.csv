@@ -1,0 +1,15 @@
+﻿variable,borne_basse_iqr,borne_haute_iqr,effectif_atypique
+Age,10.5,62.5,0
+DailyRate,-581.5,2206.5,0
+HourlyRate,-6.0,138.0,0
+MonthlyIncome,-5251.625,16557.375,117
+MonthlyRate,-10710.25,39209.75,0
+DistanceFromHome,-16.0,32.0,0
+NumCompaniesWorked,-3.5,8.5,53
+PercentSalaryHike,3.0,27.0,0
+TotalWorkingYears,-7.5,28.5,64
+TrainingTimesLastYear,0.5,4.5,254
+YearsAtCompany,-6.0,18.0,108
+YearsInCurrentRole,-5.5,14.5,22
+YearsSinceLastPromotion,-4.5,7.5,110
+YearsWithCurrManager,-5.5,14.5,14

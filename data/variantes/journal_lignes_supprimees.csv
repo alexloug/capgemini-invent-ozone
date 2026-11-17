@@ -1,0 +1,21 @@
+﻿ligne_excel_source,EmployeeNumber_source,motifs
+1472,1471,YearsInCurrentRole > YearsAtCompany
+1474,1473,YearsInCurrentRole > YearsAtCompany
+1475,1474,YearsInCurrentRole > YearsAtCompany ; YearsWithCurrManager > YearsAtCompany
+1476,1475,YearsWithCurrManager > YearsAtCompany
+1479,1478,YearsInCurrentRole > YearsAtCompany ; YearsSinceLastPromotion > YearsAtCompany
+1481,1480,YearsSinceLastPromotion > YearsAtCompany
+1484,1483,YearsAtCompany > TotalWorkingYears
+1486,1485,YearsAtCompany > TotalWorkingYears
+1488,1487,YearsWithCurrManager > YearsAtCompany
+1489,1488,YearsInCurrentRole > YearsAtCompany
+1495,1494,YearsAtCompany > TotalWorkingYears
+1496,1495,YearsSinceLastPromotion > YearsAtCompany
+1497,1496,YearsInCurrentRole > YearsAtCompany
+1501,1500,YearsInCurrentRole > YearsAtCompany ; YearsSinceLastPromotion > YearsAtCompany
+1502,1501,YearsAtCompany > TotalWorkingYears
+1505,1504,YearsWithCurrManager > YearsAtCompany
+1510,1509,YearsWithCurrManager > YearsAtCompany
+1515,1514,YearsAtCompany > TotalWorkingYears
+1516,1515,YearsAtCompany > TotalWorkingYears
+1517,1516,YearsWithCurrManager > YearsAtCompany

@@ -1,0 +1,5 @@
+﻿fichier,lignes,colonnes
+01_normal.xlsx,1518,35
+02_sans_colonnes_valeurs_inchangees.xlsx,1518,31
+03_sans_colonnes_lignes_supprimees.xlsx,1498,31
+04_sans_colonnes_valeurs_plafonnees.xlsx,1518,31

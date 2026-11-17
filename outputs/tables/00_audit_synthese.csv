@@ -1,0 +1,5 @@
+﻿categorie,variable,regle,nombre_alertes,lignes_distinctes
+cohérence entre variables,YearsAtCompany,YearsAtCompany > TotalWorkingYears,6,6
+cohérence entre variables,YearsInCurrentRole,YearsInCurrentRole > YearsAtCompany,7,7
+cohérence entre variables,YearsSinceLastPromotion,YearsSinceLastPromotion > YearsAtCompany,4,4
+cohérence entre variables,YearsWithCurrManager,YearsWithCurrManager > YearsAtCompany,6,6
