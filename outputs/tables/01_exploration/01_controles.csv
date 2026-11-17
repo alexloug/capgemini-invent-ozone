@@ -1,0 +1,5 @@
+﻿,alertes
+YearsAtCompany > TotalWorkingYears,6
+YearsInCurrentRole > YearsAtCompany,7
+YearsSinceLastPromotion > YearsAtCompany,4
+YearsWithCurrManager > YearsAtCompany,6

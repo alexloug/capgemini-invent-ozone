@@ -1,0 +1,35 @@
+﻿JobRole,JobLevel,median_income,reference_count
+Healthcare Representative,2,5738.0,64
+Healthcare Representative,3,9613.0,39
+Healthcare Representative,4,12374.0,8
+Human Resources,1,2706.0,27
+Human Resources,2,5473.5,10
+Human Resources,3,10337.5,4
+Laboratory Technician,0,3102.0,2
+Laboratory Technician,1,2661.0,155
+Laboratory Technician,2,4627.0,49
+Laboratory Technician,3,5210.0,3
+Manager,3,11910.0,10
+Manager,4,16829.0,40
+Manager,5,19217.0,32
+Manufacturing Director,1,7448.0,1
+Manufacturing Director,2,5248.0,76
+Manufacturing Director,3,9526.0,33
+Manufacturing Director,4,13486.0,8
+Manufacturing Director,5,7944.0,1
+Research Director,3,13191.0,23
+Research Director,4,16704.0,23
+Research Director,5,19152.5,20
+Research Scientist,0,3057.0,3
+Research Scientist,1,2691.0,187
+Research Scientist,2,4809.0,47
+Research Scientist,3,6349.5,2
+Sales Executive,1,6288.0,2
+Sales Executive,2,5473.0,196
+Sales Executive,3,8998.0,65
+Sales Executive,4,13272.5,14
+Sales Executive,5,12938.0,1
+Sales Representative,0,2697.5,2
+Sales Representative,1,2594.5,60
+Sales Representative,2,3195.0,6
+Sales Representative,3,2679.0,1

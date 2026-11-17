@@ -1,0 +1,9 @@
+﻿candidate,source,spearman,effectif_valide,correlation_absolue
+PriorExperienceYears,NumCompaniesWorked,0.6852124257058361,1208,0.6852124257058361
+YearsBeforeCurrentRole,YearsAtCompany,0.6624527575821252,1203,0.6624527575821252
+YearsBeforeCurrentManager,YearsAtCompany,0.6605523958494297,1204,0.6605523958494297
+CompanyTenureShare,NumCompaniesWorked,-0.6326648255425811,1197,0.6326648255425811
+RoleTenureShare,YearsInCurrentRole,0.508119692721837,1162,0.508119692721837
+IncomeToRoleLevelMedian,MonthlyIncome,0.3243633576415636,1192,0.3243633576415636
+DistanceIfOverTime,DistanceFromHome,0.13610958376400342,1214,0.13610958376400342
+OverTimeFrequentTravel,PercentSalaryHike,-0.03919861218971418,1214,0.03919861218971418

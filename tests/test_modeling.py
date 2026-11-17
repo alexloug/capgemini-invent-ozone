@@ -1,11 +1,15 @@
 """Contrôles des fuites, de l'encodage et des diagnostics de données."""
 import unittest
+import json
+import tempfile
+from pathlib import Path
+from hashlib import sha256
 from unittest.mock import patch
 import numpy as np
 import pandas as pd
 
 from src.modeling import (BINARY, EXCLUDED, SCORES, build_pipelines, encode_binary,
-                          load_model_data, make_split)
+                          load_model_data, make_split, verify_reference_split, DATA_PATH)
 
 
 class ModelingTests(unittest.TestCase):
@@ -55,6 +59,25 @@ class ModelingTests(unittest.TestCase):
         for col, mapping in BINARY.items():
             expected[col] = expected[col].map(mapping)
         pd.testing.assert_frame_equal(encode_binary(sample[list(BINARY)]), expected)
+
+    def test_notebook_05_rejects_changed_split_or_data(self):
+        *_, rows = make_split(self.X, self.y, self.rows)
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            fingerprint = sha256(DATA_PATH.read_bytes()).hexdigest()
+            metadata = folder / '04_metadonnees.json'
+            metadata.write_text(json.dumps({'sha256_source': fingerprint}))
+            indices = folder / '04_indices_split_plis.csv'
+            rows.to_csv(indices, index=False)
+            with patch('src.modeling.MODEL_DIR', folder):
+                verify_reference_split(rows)
+                changed = rows.copy()
+                changed.loc[0, 'ordre_dans_partie'] += 1
+                with self.assertRaises(AssertionError):
+                    verify_reference_split(changed)
+                metadata.write_text(json.dumps({'sha256_source': 'fichier modifié'}))
+                with self.assertRaisesRegex(ValueError, 'fichier de données a changé'):
+                    verify_reference_split(rows)
 
     def test_missing_and_unexpected_binary_raise_diagnostic(self):
         frame = pd.DataFrame({'Attrition': ['Yes'], 'Gender': ['Female'], 'OverTime': ['No']})

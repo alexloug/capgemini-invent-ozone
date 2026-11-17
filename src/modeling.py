@@ -21,7 +21,7 @@ from sklearn.preprocessing import FunctionTransformer, OneHotEncoder, StandardSc
 
 from .data import ROOT, load_data
 
-DATA_PATH = ROOT / 'data/variantes/02_sans_colonnes_valeurs_inchangees.xlsx'
+DATA_PATH = ROOT / 'data/variantes/01_baseline.xlsx'
 MODEL_DIR = ROOT / 'outputs/models'
 BINARY = {'Gender': {'Male': 0, 'Female': 1}, 'OverTime': {'No': 0, 'Yes': 1}}
 NOMINAL = ['BusinessTravel', 'Department', 'EducationField', 'JobRole', 'MaritalStatus']
@@ -141,15 +141,20 @@ def build_pipelines(quantitative):
         'Baseline': Pipeline([('modele', DummyClassifier(strategy='prior'))])}
 
 
-def select_models(X_train, y_train, folds, quantitative):
-    """Recherche exclusivement sur l'entraînement, mêmes plis pour les trois modèles."""
+def select_models(X_train, y_train, folds, quantitative, model_names=None):
+    """Recherche sur l'entraînement uniquement, mêmes plis pour les modèles demandés."""
     grids = {
         'Logistique': {'modele__C': [.1, 1, 10], 'modele__class_weight': [None, 'balanced']},
         'RandomForest': {'modele__max_depth': [6, None], 'modele__min_samples_leaf': [2, 8],
                          'modele__class_weight': [None, 'balanced']},
         'Baseline': {}}
     searches, comparison = {}, []
-    for name, pipeline in build_pipelines(quantitative).items():
+    available = build_pipelines(quantitative)
+    names = list(available) if model_names is None else list(model_names)
+    if len(set(names)) != len(names) or not set(names).issubset(available):
+        raise ValueError(f"Liste de modèles invalide : {names}")
+    for name in names:
+        pipeline = available[name]
         print(f'Validation croisée : {name}', flush=True)
         search = GridSearchCV(pipeline, grids[name], cv=folds, scoring=SCORING,
                               refit='average_precision', n_jobs=1, error_score='raise',
@@ -191,23 +196,39 @@ def evaluate_test(searches, X_test, y_test):
 
 def transformed_features(searches):
     frames = []
-    for name in ['Logistique', 'RandomForest']:
+    for name in searches:
+        if name == 'Baseline':
+            continue
         names = searches[name].best_estimator_.named_steps['preparation'].get_feature_names_out()
         frames.append(pd.DataFrame({'modele': name, 'position': np.arange(len(names)), 'variable_transformee': names}))
     return pd.concat(frames, ignore_index=True)
 
 
-def save_artifacts(searches, split_rows, path=DATA_PATH):
+def save_artifacts(searches, split_rows, path=DATA_PATH, prefix="04"):
     """Modèles ajustés sur l'entraînement complet, jamais réajustés au test."""
     MODEL_DIR.mkdir(parents=True, exist_ok=True)
     for name, search in searches.items():
-        joblib.dump(search.best_estimator_, MODEL_DIR / f'04_{name}.joblib', compress=3)
-    split_rows.to_csv(MODEL_DIR / '04_indices_split_plis.csv', index=False, encoding='utf-8-sig')
+        joblib.dump(search.best_estimator_, MODEL_DIR / f'{prefix}_{name}.joblib', compress=3)
+    split_rows.to_csv(MODEL_DIR / f'{prefix}_indices_split_plis.csv', index=False, encoding='utf-8-sig')
     metadata = {'fichier': str(path.relative_to(ROOT)), 'sha256_source': sha256(path.read_bytes()).hexdigest(),
                 'random_state': 42, 'test_size': .2, 'plis': 5, 'seuil': .5,
                 'selection': 'average_precision', 'python': platform.python_version(),
                 'pandas': pd.__version__, 'numpy': np.__version__, 'scikit_learn': sklearn.__version__,
                 'joblib': joblib.__version__,
                 'parametres': {name: search.best_params_ for name, search in searches.items()}}
-    (MODEL_DIR / '04_metadonnees.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding='utf-8')
+    (MODEL_DIR / f'{prefix}_metadonnees.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding='utf-8')
+    return metadata
+
+
+def verify_reference_split(split_rows, path=DATA_PATH):
+    """Le notebook 05 ne compare que des expériences sur les mêmes données et indices."""
+    metadata_path = MODEL_DIR / '04_metadonnees.json'
+    indices_path = MODEL_DIR / '04_indices_split_plis.csv'
+    if not metadata_path.exists() or not indices_path.exists():
+        raise FileNotFoundError('Exécuter le notebook 04 avant le 05 pour sauvegarder la référence.')
+    metadata = json.loads(metadata_path.read_text())
+    if metadata['sha256_source'] != sha256(path.read_bytes()).hexdigest():
+        raise ValueError('Le fichier de données a changé : réexécuter le notebook 04.')
+    saved = pd.read_csv(indices_path, dtype={'pli_validation': 'Int64'})
+    pd.testing.assert_frame_equal(saved, split_rows.reset_index(drop=True))
     return metadata

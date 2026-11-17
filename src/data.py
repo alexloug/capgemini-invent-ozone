@@ -24,9 +24,25 @@ def load_data(path=None):
     return df
 
 
+TABLE_FOLDERS = {
+    "00": "00_audit", "01": "01_exploration", "02": "02_egalite_femmes_hommes",
+    "03": "03_conditions_travail", "04": "04_regression_logistique", "05": "05_random_forest"}
+
+
+def table_path(name):
+    """Chemin commun aux exports et lectures, classé par notebook."""
+    prefix = name.split("_", 1)[0]
+    folder = TABLES / TABLE_FOLDERS.get(prefix, "autres")
+    if prefix in {"04", "05"} and any(token in name for token in (
+            "_recherche_", "_groupes_variables", "_repartition_", "_variables_transformees")):
+        folder = folder / "details"
+    return folder / f"{name}.csv"
+
+
 def export_table(table, name, index=False):
-    TABLES.mkdir(parents=True, exist_ok=True)
-    table.to_csv(TABLES / f"{name}.csv", index=index, encoding="utf-8-sig")
+    path = table_path(name)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    table.to_csv(path, index=index, encoding="utf-8-sig")
     return table
 
 

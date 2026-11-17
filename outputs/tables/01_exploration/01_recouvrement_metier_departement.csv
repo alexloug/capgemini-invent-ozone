@@ -1,0 +1,10 @@
+﻿JobRole,effectif,departements_observes,departement_majoritaire,part_majoritaire
+Healthcare Representative,111,1,Research & Development,1.0
+Human Resources,41,1,Human Resources,1.0
+Laboratory Technician,209,1,Research & Development,1.0
+Manager,82,3,Research & Development,0.5609756097560976
+Manufacturing Director,119,1,Research & Development,1.0
+Research Director,66,1,Research & Development,1.0
+Research Scientist,239,1,Research & Development,1.0
+Sales Executive,278,1,Sales,1.0
+Sales Representative,69,1,Sales,1.0

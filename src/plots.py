@@ -29,7 +29,7 @@ def plot_attrition(df, group, name):
     return table
 
 
-def plot_model_comparison(y_test, predictions):
+def plot_model_comparison(y_test, predictions, prefix="04"):
     """Figures du test à partir des prédictions déjà calculées, sans réévaluation."""
     from sklearn.metrics import ConfusionMatrixDisplay, PrecisionRecallDisplay
     fig, axes = plt.subplots(1, len(predictions), figsize=(14, 4))
@@ -38,11 +38,11 @@ def plot_model_comparison(y_test, predictions):
             ax=ax, colorbar=False, cmap='Blues')
         ax.set(title=f'{name} - seuil 0,5', xlabel='Classe prédite', ylabel='Classe observée')
         ax.grid(False)
-    save_figure(fig, '04_matrices_confusion')
+    save_figure(fig, f'{prefix}_matrices_confusion')
     fig, ax = plt.subplots(figsize=(8, 5))
     for name, result in predictions.items():
         PrecisionRecallDisplay.from_predictions(y_test, result['probabilites'], name=name, ax=ax)
     ax.axhline(y_test.mean(), linestyle='--', color='gray', label='Prévalence du test')
     ax.set(xlabel='Rappel', ylabel='Précision', title='Comparaison sur le test réservé')
     ax.legend()
-    save_figure(fig, '04_precision_rappel')
+    save_figure(fig, f'{prefix}_precision_rappel')

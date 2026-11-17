@@ -1,5 +1,5 @@
 {
-  "fichier": "data/variantes/02_sans_colonnes_valeurs_inchangees.xlsx",
+  "fichier": "data/variantes/01_baseline.xlsx",
   "sha256_source": "ec3168d646775d47a4472d7fee640a5595ea48703c345c1ce0a06b28f8e14a66",
   "random_state": 42,
   "test_size": 0.2,
@@ -15,11 +15,6 @@
     "Logistique": {
       "modele__C": 0.1,
       "modele__class_weight": null
-    },
-    "RandomForest": {
-      "modele__class_weight": null,
-      "modele__max_depth": null,
-      "modele__min_samples_leaf": 2
     },
     "Baseline": {}
   }

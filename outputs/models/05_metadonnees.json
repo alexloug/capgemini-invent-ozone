@@ -1,0 +1,22 @@
+{
+  "fichier": "data/variantes/01_baseline.xlsx",
+  "sha256_source": "ec3168d646775d47a4472d7fee640a5595ea48703c345c1ce0a06b28f8e14a66",
+  "random_state": 42,
+  "test_size": 0.2,
+  "plis": 5,
+  "seuil": 0.5,
+  "selection": "average_precision",
+  "python": "3.9.6",
+  "pandas": "2.3.3",
+  "numpy": "2.0.2",
+  "scikit_learn": "1.6.1",
+  "joblib": "1.5.3",
+  "parametres": {
+    "RandomForest": {
+      "modele__class_weight": null,
+      "modele__max_depth": null,
+      "modele__min_samples_leaf": 2
+    },
+    "Baseline": {}
+  }
+}

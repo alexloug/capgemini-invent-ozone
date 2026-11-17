@@ -1,0 +1,5 @@
+﻿modele,evaluation,seuil,parametres,average_precision,average_precision_ecart_type,roc_auc,roc_auc_ecart_type,precision,precision_ecart_type,recall,recall_ecart_type,f1,f1_ecart_type,vrais_negatifs,faux_positifs,faux_negatifs,vrais_positifs
+Logistique,CV_entrainement,0.5,"{""modele__C"": 0.1, ""modele__class_weight"": null}",0.6503933307001931,0.0713540548085352,0.8403367660061372,0.0584909068666089,0.8501984126984127,0.10986044997235352,0.31846153846153846,0.028757413359735064,0.4619323465897448,0.03892358269700882,,,,
+Baseline,CV_entrainement,0.5,{},0.16309560248954189,0.0018654179269725238,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,
+Logistique,test_reserve,0.5,,0.6852366382347101,,0.8686614173228346,,0.8,,0.32,,0.45714285714285713,,250.0,4.0,34.0,16.0
+Baseline,test_reserve,0.5,,0.16447368421052633,,0.5,,0.0,,0.0,,0.0,,254.0,0.0,50.0,0.0
