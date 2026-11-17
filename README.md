@@ -13,6 +13,8 @@ La logistique et la forêt 05 sont les références. L'exploration 06 n'a pas d�
 
 ## Structure et statut des fichiers
 
+Le notebook 02 propose **18 graphiques en anglais** pour la présentation, dont six prioritaires. Le [catalogue PNG/SVG](outputs/02_gender_presentation/README.md) indique les messages et les fichiers à utiliser. Ces descriptifs portent sur la base complète ; leurs comparaisons salariales ne doivent pas être confondues avec celles sur entraînement dans `reports/`.
+
 ```text
 AUDIT.md                         inventaire, décisions et problèmes méthodologiques
 reports/                         restitution principale et métadonnées de consolidation
@@ -46,6 +48,7 @@ outputs/
   models/                       pipelines 04/05, indices et métadonnées
   tables/, figures/             preuves historiques par notebook, hors sélection slides
   group_feature_analysis/       permutations, ablations et analyses par groupe
+  02_gender_presentation/        18 graphiques anglais, sources, catalogue et métadonnées
   archives/                     sorties et modèle candidat 06
 docs/archives/                  guide PDF historique obsolète, conservé intégralement
 tests/                          contrôles des partitions, encodages et méthodes

@@ -1,0 +1,25 @@
+{
+  "source": "data/employee.csv.xlsx",
+  "source_n": 1518,
+  "departures": 248,
+  "women_n": 605,
+  "men_n": 913,
+  "common_strata_minimum_per_gender": 5,
+  "descriptive_bootstraps": 500,
+  "protected_sha256": {
+    "data/employee.csv.xlsx": "1f5ae45bb980750bdf60b2aaded10bb92d0e1459f512acd7fd0e7da074bdbd86",
+    "data/variantes/01_baseline.xlsx": "ec3168d646775d47a4472d7fee640a5595ea48703c345c1ce0a06b28f8e14a66",
+    "data/variantes/02_rows_removed.xlsx": "8d339455647709c41d48c560341f0539100f17f6c97b15549ce4f81b0f62726e",
+    "data/variantes/03_tenure_capped.xlsx": "188da8e959647512ddc9149e3305f0fbf3c98732543d857d81431b9784f6f09a",
+    "outputs/models/04_metadonnees.json": "f7355cf21a720b8f6d5554947063f1f7ed68d71782df428b9d510708f46d3e17",
+    "outputs/models/05_RandomForest.joblib": "c8c7fcd9d17b6ed12c81406673ff9b72e58a74a226b020bb304fc0d3b42a9817",
+    "outputs/models/05_metadonnees.json": "f64e4ab0a275d169b5a4db2f3c50a8a54f20e0b56327f329d7c61deb83d01132",
+    "outputs/models/04_Logistique.joblib": "3694bfa7fe2246b79c20fee530d25d41d7e20ecf5fde1cfe6aca1578e55372f5",
+    "outputs/models/04_indices_split_plis.csv": "5aeb958fc54cc62c21e10d3e762440d46b7980713f8f6926ea07de06858358a3",
+    "outputs/models/05_Baseline.joblib": "b8a7c6d1a6d8c3f56d16763396b42bbfc885557b7a708804cc645a8d1bf79a4e",
+    "outputs/models/05_indices_split_plis.csv": "5aeb958fc54cc62c21e10d3e762440d46b7980713f8f6926ea07de06858358a3",
+    "outputs/models/04_Baseline.joblib": "b8a7c6d1a6d8c3f56d16763396b42bbfc885557b7a708804cc645a8d1bf79a4e"
+  },
+  "module_sha256": "4f7d18d7193c14b6c3f2afa941bb0434d5246c8a10f088a8b8e59659a9f36eb4",
+  "comparability_note": "Full-data descriptives; reports/ contains separate training-only standardization."
+}
