@@ -1,0 +1,27 @@
+﻿variable,type,test,p,effet,mesure_effet,detail,p_holm
+Age,numérique,Mann-Whitney,9.29475467606313e-09,0.380672415294835,corrélation bisériale par rangs,médiane partantes 31.0 vs restantes 37.0,2.416636215776414e-07
+TotalWorkingYears,numérique,Mann-Whitney,2.205635660026657e-08,0.37030746450657603,corrélation bisériale par rangs,médiane partantes 7.0 vs restantes 10.0,5.514089150066643e-07
+MonthlyIncome,numérique,Mann-Whitney,8.792312297999586e-08,0.35484713875097984,corrélation bisériale par rangs,médiane partantes 2886.0 vs restantes 5378.0,2.1101549515199007e-06
+JobLevel,catégorielle,χ²,9.479930549561012e-08,0.26025370748443066,V de Cramér,1 : 27% de départs,2.1803840263990328e-06
+JobRole,catégorielle,χ²,1.3559598078767073e-07,0.2795510124759935,V de Cramér,Sales Representative : 44% de départs,2.983111577328756e-06
+OverTime,catégorielle,χ²,2.39550312283782e-06,0.19176631866407495,V de Cramér,Yes : 25% de départs,5.030556557959422e-05
+StockOptionLevel,catégorielle,χ²,3.155742516224525e-06,0.21624445080522567,V de Cramér,0 : 23% de départs,6.31148503244905e-05
+MaritalStatus,catégorielle,χ²,2.3405250508201284e-05,0.18774477294681832,V de Cramér,Single : 24% de départs,0.00044469975965582436
+YearsAtCompany,numérique,Mann-Whitney,8.886987887738263e-05,0.2590584443863775,corrélation bisériale par rangs,médiane partantes 4.0 vs restantes 6.0,0.0015996578197928874
+BusinessTravel,catégorielle,χ²,0.00025632019075848826,0.1653354531419917,V de Cramér,Travel_Frequently : 26% de départs,0.0043574432428943
+YearsInCurrentRole,numérique,Mann-Whitney,0.00042773539532406986,0.23083790610573995,corrélation bisériale par rangs,médiane partantes 2.0 vs restantes 3.0,0.006843766325185118
+JobInvolvement,catégorielle,χ²,0.000750209943438254,0.1870887890206001,V de Cramér,1 : 38% de départs,0.01125314915157381
+YearsWithCurrManager,numérique,Mann-Whitney,0.0007795334597270473,0.22045118021078303,corrélation bisériale par rangs,médiane partantes 2.0 vs restantes 3.0,0.01125314915157381
+Department,catégorielle,χ²,0.0018100604068665958,0.14447848717783632,V de Cramér,Human Resources : 30% de départs,0.023530785289265745
+DistanceFromHome,numérique,Mann-Whitney,0.01876365225002689,0.1553000609702988,corrélation bisériale par rangs,médiane partantes 9.0 vs restantes 7.0,0.22516382700032267
+EnvironmentSatisfaction,catégorielle,χ²,0.02028025122378741,0.14856731687355818,V de Cramér,1 : 24% de départs,0.22516382700032267
+EducationField,catégorielle,χ²,0.02776220886022383,0.14414036265181338,V de Cramér,Marketing : 22% de départs,0.2776220886022383
+RelationshipSatisfaction,catégorielle,χ²,0.036585518989712795,0.13009341096198257,V de Cramér,1 : 23% de départs,0.32926967090741516
+TrainingTimesLastYear,numérique,Mann-Whitney,0.08000762135089588,0.11120546990680258,corrélation bisériale par rangs,médiane partantes 2.0 vs restantes 3.0,0.6400609708071671
+NumCompaniesWorked,numérique,Mann-Whitney,0.10658465671434222,0.10456406236390559,corrélation bisériale par rangs,médiane partantes 1.0 vs restantes 2.0,0.7460925970003955
+JobSatisfaction,catégorielle,χ²,0.1432093545232522,0.11674371528417352,V de Cramér,2 : 21% de départs,0.8592561271395132
+YearsSinceLastPromotion,numérique,Mann-Whitney,0.19859281426528652,0.08215747757164005,corrélation bisériale par rangs,médiane partantes 1.0 vs restantes 1.0,0.9929640713264326
+WorkLifeBalance,catégorielle,χ²,0.2145421454316982,0.10820072319778878,V de Cramér,4 : 24% de départs,0.9929640713264326
+Education,catégorielle,χ²,0.5827537075495437,0.08814469591131992,V de Cramér,1 : 18% de départs,1.0
+PerformanceRating,catégorielle,χ²,0.9245797458169958,0.03856663387844517,V de Cramér,4 : 15% de départs,1.0
+PercentSalaryHike,numérique,Mann-Whitney,0.9328775715507398,0.0055744273146938195,corrélation bisériale par rangs,médiane partantes 14.0 vs restantes 14.0,1.0
