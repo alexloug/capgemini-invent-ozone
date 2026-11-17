@@ -1,0 +1,21 @@
+number,title,priority,png,svg,source_table
+1,"The dataset records 248 departures among 1,518 employees",Appendix,figures/03_01_appendix.png,figures/03_01_appendix.svg,tables/chart_01_source.csv
+2,Overtime is associated with a higher observed departure rate,Core presentation,figures/03_02_core.png,figures/03_02_core.svg,tables/chart_02_source.csv
+3,Departure rates increase across recorded travel-frequency categories,Core presentation,figures/03_03_core.png,figures/03_03_core.svg,tables/chart_03_source.csv
+4,Recorded commuting distance is associated with departure rates,Core presentation,figures/03_04_core.png,figures/03_04_core.svg,tables/chart_04_source.csv
+5,Departure rates differ across environment-satisfaction codes,Core presentation,figures/03_05_core.png,figures/03_05_core.svg,tables/chart_05_source.csv
+6,Departure rates differ across job-satisfaction codes,Core presentation,figures/03_06_core.png,figures/03_06_core.svg,tables/chart_06_source.csv
+7,"Work–life balance codes need careful, sample-aware interpretation",Appendix,figures/03_07_appendix.png,figures/03_07_appendix.svg,tables/chart_07_source.csv
+8,Relationship-satisfaction codes show uneven sample sizes,Appendix,figures/03_08_appendix.png,figures/03_08_appendix.svg,tables/chart_08_source.csv
+9,Overtime is associated with more departures in both gender groups,Appendix,figures/03_09_appendix.png,figures/03_09_appendix.svg,tables/chart_09_source.csv
+10,Overtime and job-level code 1 identify a group for targeted diagnosis,Core presentation,figures/03_10_core.png,figures/03_10_core.svg,tables/chart_10_source.csv
+11,Overtime and travel should be reviewed together,Core presentation,figures/03_11_core.png,figures/03_11_core.svg,tables/chart_11_source.csv
+12,Compare distance-related departure patterns with and without overtime,Appendix,figures/03_12_appendix.png,figures/03_12_appendix.svg,tables/chart_12_source.csv
+13,Overtime exposure differs across job roles,Appendix,figures/03_13_appendix.png,figures/03_13_appendix.svg,tables/chart_13_source.csv
+14,Travel exposure differs across job roles,Appendix,figures/03_14_appendix.png,figures/03_14_appendix.svg,tables/chart_14_source.csv
+15,Compare overtime within recorded environment-satisfaction codes,Appendix,figures/03_15_appendix.png,figures/03_15_appendix.svg,tables/chart_15_source.csv
+16,Compare overtime within recorded work–life balance codes,Appendix,figures/03_16_appendix.png,figures/03_16_appendix.svg,tables/chart_16_source.csv
+17,Distance distributions overlap between leavers and stayers,Appendix,figures/03_17_appendix.png,figures/03_17_appendix.svg,tables/chart_17_source.csv
+18,Compare overtime-associated departures within departments,Appendix,figures/03_18_appendix.png,figures/03_18_appendix.svg,tables/chart_18_source.csv
+19,Sparse score codes limit detailed subgroup interpretation,Appendix,figures/03_19_appendix.png,figures/03_19_appendix.svg,tables/chart_19_source.csv
+20,Compare overtime groups on a common role-and-level composition,Core presentation,figures/03_20_core.png,figures/03_20_core.svg,tables/chart_20_source.csv

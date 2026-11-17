@@ -15,6 +15,8 @@ La logistique et la forêt 05 sont les références. L'exploration 06 n'a pas d�
 
 Le notebook 02 propose **18 graphiques en anglais** pour la présentation, dont six prioritaires. Le [catalogue PNG/SVG](outputs/02_gender_presentation/README.md) indique les messages et les fichiers à utiliser. Ces descriptifs portent sur la base complète ; leurs comparaisons salariales ne doivent pas être confondues avec celles sur entraînement dans `reports/`.
 
+Le notebook 03 propose **20 graphiques en anglais** sur les conditions de travail, dont huit prioritaires. Son [catalogue PNG/SVG et tableaux sources](outputs/03_working_conditions_presentation/README.md) couvre heures supplémentaires, déplacements, distance, satisfaction et comparaisons à métier/niveau communs. Les croisements restent descriptifs, avec masquage ou signalement des cellules fragiles.
+
 ```text
 AUDIT.md                         inventaire, décisions et problèmes méthodologiques
 reports/                         restitution principale et métadonnées de consolidation
@@ -49,6 +51,7 @@ outputs/
   tables/, figures/             preuves historiques par notebook, hors sélection slides
   group_feature_analysis/       permutations, ablations et analyses par groupe
   02_gender_presentation/        18 graphiques anglais, sources, catalogue et métadonnées
+  03_working_conditions_presentation/ 20 graphiques anglais et comparaisons descriptives
   archives/                     sorties et modèle candidat 06
 docs/archives/                  guide PDF historique obsolète, conservé intégralement
 tests/                          contrôles des partitions, encodages et méthodes
