@@ -22,6 +22,7 @@ Exécuter toutes les cellules dans l’ordre, dans :
 
 0. `notebooks/00_audit_variables.ipynb` : contrôle détaillé des 35 variables, valeurs atypiques et incohérences ; à lancer avant les analyses.
 1. `notebooks/01_exploration.ipynb` : exploration de la baseline, redondances et huit variables candidates ; diagnostics sur l’entraînement uniquement.
+   - `notebooks/01b_encoding.ipynb` : démonstration avant/après de l’encodage binaire, du one-hot, de la standardisation et des pipelines ; à lire avant les modèles.
 2. `notebooks/02_gender_equality.ipynb` : écarts bruts et comparaisons à métier/niveau similaires.
 3. `notebooks/03_working_conditions.ipynb` : conditions de travail et départs.
 4. `notebooks/04_attrition_model.ipynb` : régression logistique L2 et baseline ; explications du modèle, de l’encodage, des coefficients et des métriques.
@@ -93,3 +94,6 @@ Les indices nécessaires à la reproduction restent avec les modèles dans `outp
 Le notebook 01 utilise `data/variantes/01_baseline.xlsx`. Il examine les corrélations Pearson/Spearman, le lien salaire/niveau/expérience et le recouvrement métier/département. Il explore huit colonnes : expérience hors entreprise, part de carrière dans l’entreprise, temps avant le rôle actuel, part d’ancienneté dans le rôle, temps avant le manager actuel, cumul heures supplémentaires/déplacements fréquents, interaction distance/heures supplémentaires et revenu relatif à la médiane métier/niveau.
 
 Les fonctions sont dans `src/features.py`. Le notebook ne modifie aucun Excel ni modèle, et ne sélectionne pas les variables en fonction du test. Seules les colonnes dérivées non calculables reçoivent NaN. La référence salariale est calculée sur l’entraînement ; son intégration à un modèle nécessiterait un transformer ajusté dans chaque pli. Les diagnostics et exports sont dans `outputs/tables/01_exploration/`. Le contrôle détaillé de chaque variable reste dans le 00. Les anciens exports du 01 sur la cible et les descriptifs généraux ont été retirés pour éviter leur confusion avec cette nouvelle analyse.
+
+
+Le notebook pédagogique `01b_encoding.ipynb` réutilise les prétraitements de `src/modeling.py` sur `01_baseline.xlsx`, avec le même split que les modèles. Les exemples restent dans le notebook : aucun Excel/CSV encodé ni pipeline sauvegardé n’est produit ou modifié. Il montre aussi une catégorie inconnue fictive et l’apprentissage d’un prétraitement dans un seul pli de validation croisée.
