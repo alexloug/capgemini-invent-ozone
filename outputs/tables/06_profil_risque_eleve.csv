@@ -1,0 +1,30 @@
+﻿dimension,segment,effectif,part_classee_risque_eleve
+niveau,Niveau 1,559,0.3220035778175313
+niveau,Niveau 2,545,0.1669724770642202
+niveau,Niveau 3,225,0.08444444444444445
+niveau,Niveau 4-5,189,0.07407407407407407
+anciennete,Ancienneté 0-1 an,225,0.36444444444444446
+anciennete,Ancienneté 2-3 ans,262,0.29770992366412213
+anciennete,Ancienneté 4-6 ans,393,0.2010178117048346
+anciennete,Ancienneté 7-10 ans,384,0.11197916666666667
+anciennete,Ancienneté >10 ans,254,0.08661417322834646
+paie_relative,Paie basse,505,0.2613861386138614
+paie_relative,Paie médiane,506,0.18774703557312253
+paie_relative,Paie haute,507,0.15187376725838264
+heures_sup,Heures sup,432,0.4351851851851852
+heures_sup,Sans heures sup,1086,0.10681399631675875
+voyages,Voyages fréquents,287,0.3344947735191638
+voyages,Voyages rares,1074,0.17970204841713222
+voyages,Pas de voyage,157,0.09554140127388536
+situation,Célibataire,484,0.35537190082644626
+situation,Marié(e),697,0.13486370157819225
+situation,Divorcé(e),337,0.11275964391691394
+poste,Healthcare Representative,137,0.0364963503649635
+poste,Human Resources,54,0.25925925925925924
+poste,Laboratory Technician,267,0.3258426966292135
+poste,Manager,103,0.038834951456310676
+poste,Manufacturing Director,152,0.05921052631578947
+poste,Research Director,84,0.047619047619047616
+poste,Research Scientist,300,0.18333333333333332
+poste,Sales Executive,333,0.21921921921921922
+poste,Sales Representative,88,0.6022727272727273

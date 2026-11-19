@@ -25,6 +25,7 @@ Exécuter toutes les cellules dans l’ordre, dans :
 3. `notebooks/03_working_conditions.ipynb` : conditions de travail et départs.
 4. `notebooks/04_attrition_model.ipynb` : modèle logistique et test stratifié réservé.
 5. `notebooks/05_women_attrition.ipynb` : focus sur les départs des femmes (tests, régression logistique, interactions Genre × facteur, survie, segments, Oaxaca-Blinder, scénarios, robustesse, équité). Exports `05_*` dans `outputs/`.
+6. `notebooks/06_attrition_segments.ipynb` : tranches (ancienneté, niveau, poste, rémunération relative, conditions de travail) qui concentrent les départs : part des effectifs vs part des départs, lift, croisements, recherche automatique de segments (tests multiples, validation par demi-échantillons) et courbe de concentration d'un score de risque. Exports `06_*`.
 
 Chaque notebook charge indépendamment les données. Les tableaux CSV (UTF-8 avec BOM) et figures PNG sont régénérés dans `outputs/tables/` et `outputs/figures/`. Les fichiers d’export portant le même nom sont remplacés lors d’une réexécution. Aucune donnée individuelle ni prédiction individuelle n’est exportée.
 
@@ -38,4 +39,4 @@ Le modèle utilise un pipeline ajusté uniquement sur l’entraînement, une ré
 
 ## Vérification locale
 
-Les quatre notebooks ont été exécutés dans l’ordre avec Python 3.9, pandas 2.3.3, numpy 2.0.2, openpyxl 3.1.5 et scikit-learn 1.6.1. Les exports sont fournis avec les sorties des cellules. Le lancement du kernel Jupyter a nécessité l’autorisation d’ouvrir des ports locaux dans l’environnement d’exécution.
+Les quatre premiers notebooks ont été exécutés dans l’ordre avec Python 3.9, pandas 2.3.3, numpy 2.0.2, openpyxl 3.1.5 et scikit-learn 1.6.1. Les exports sont fournis avec les sorties des cellules. Le lancement du kernel Jupyter a nécessité l’autorisation d’ouvrir des ports locaux dans l’environnement d’exécution. Le notebook 06 a été exécuté séparément avec Python 3.14 (nbclient) ; ses sorties sont enregistrées dans le fichier.
