@@ -9,6 +9,8 @@
 3. [Storyline de 7 slides](reports/SLIDE_STORYLINE.md) et [figures finales](reports/figures/README.md).
 4. [Résultats statistiques](reports/MODEL_RESULTS.md), [registre des sources](reports/tables/source_register.csv) et [audit complet](AUDIT.md).
 
+**Recommandation finale.** Le [HR Action Business Case](reports/HR_ACTION_BUSINESS_CASE.md) chiffre les pilotes horaires, déplacements et carrières, et propose une décision de lancement. La [trame en quatre slides](reports/HR_ACTION_BUSINESS_CASE_SLIDES.md) réutilise les résultats et figures générés. Reproduction depuis la racine avec `python -m src.hr_action_business_case`.
+
 La logistique et la forêt 05 sont les références. L'exploration 06 n'a pas démontré de gain robuste et reste en annexe. Les rapports générés constituent la vue consolidée ; les exports historiques restent les preuves de calcul.
 
 ## Structure et statut des fichiers

@@ -1,0 +1,478 @@
+{
+  "general": {
+    "months": {
+      "value": 12,
+      "unit": "mois",
+      "status": "Hypothèse de scénario",
+      "source": "Horizon de travail demandé. Les économies et coûts récurrents sont proratisés."
+    },
+    "loaded_pay_multiplier": {
+      "value": 1.3,
+      "unit": "salaire chargé / brut",
+      "status": "Hypothèse de scénario",
+      "source": "Illustration. Demander le ratio à Finance par pays et métier."
+    },
+    "eur_per_salary_unit": {
+      "value": 1.0,
+      "unit": "€ de scénario / unité de MonthlyIncome",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de présentation. Demander la devise et le taux applicable."
+    },
+    "replacement_years": {
+      "value": 1,
+      "unit": "année de salaire chargé / remplacement",
+      "status": "Hypothèse du brief",
+      "source": "Brief Capgemini, slides 6 et 21"
+    }
+  },
+  "actions": {
+    "overtime": {
+      "label_en": "Overtime",
+      "label_fr": "Heures supplémentaires",
+      "eligible_roles": {
+        "value": [],
+        "unit": "liste de JobRole",
+        "status": "Hypothèse de scénario",
+        "source": "Liste vide = tous les métiers de la base admissibles au filtre d’exposition. Liste critique à valider avec le client."
+      },
+      "pilot_covered": {
+        "value": 120,
+        "unit": "salariés effectivement couverts",
+        "status": "Hypothèse de scénario",
+        "source": "Capacité d’intervention illustrative, hors témoins."
+      },
+      "rollout_covered": {
+        "value": 300,
+        "unit": "salariés effectivement couverts",
+        "status": "Hypothèse de scénario",
+        "source": "Déploiement séparé à confirmer sur des équipes comparables, hors budget pilote."
+      },
+      "pilot_launch": {
+        "value": 24000,
+        "unit": "€ de scénario au lancement",
+        "status": "Hypothèse de scénario",
+        "source": "Pilotage et refonte des plannings"
+      },
+      "rollout_launch": {
+        "value": 40000,
+        "unit": "€ de scénario au lancement",
+        "status": "Hypothèse de scénario",
+        "source": "Pilotage et refonte des plannings à l’échelle de déploiement."
+      },
+      "annual_recurring_per_covered": {
+        "value": 600,
+        "unit": "€ de scénario / salarié couvert / an",
+        "status": "Hypothèse de scénario",
+        "source": "Renfort, coordination et récupération"
+      },
+      "annual_savings_per_covered": {
+        "value": 300,
+        "unit": "€ de scénario / salarié couvert / an",
+        "status": "Hypothèse de scénario",
+        "source": "Primes d’heures réellement évitées, hors renfort déjà budgété"
+      }
+    },
+    "travel": {
+      "label_en": "Business travel",
+      "label_fr": "Déplacements",
+      "eligible_roles": {
+        "value": [],
+        "unit": "liste de JobRole",
+        "status": "Hypothèse de scénario",
+        "source": "Liste vide = tous les métiers de la base admissibles au filtre d’exposition. Liste critique à valider avec le client."
+      },
+      "pilot_covered": {
+        "value": 100,
+        "unit": "salariés effectivement couverts",
+        "status": "Hypothèse de scénario",
+        "source": "Capacité d’intervention illustrative, hors témoins."
+      },
+      "rollout_covered": {
+        "value": 220,
+        "unit": "salariés effectivement couverts",
+        "status": "Hypothèse de scénario",
+        "source": "Déploiement séparé à confirmer sur des équipes comparables, hors budget pilote."
+      },
+      "pilot_launch": {
+        "value": 15000,
+        "unit": "€ de scénario au lancement",
+        "status": "Hypothèse de scénario",
+        "source": "Inventaire des trajets et paramétrage distanciel"
+      },
+      "rollout_launch": {
+        "value": 27000,
+        "unit": "€ de scénario au lancement",
+        "status": "Hypothèse de scénario",
+        "source": "Inventaire des trajets et paramétrage distanciel à l’échelle de déploiement."
+      },
+      "annual_recurring_per_covered": {
+        "value": 250,
+        "unit": "€ de scénario / salarié couvert / an",
+        "status": "Hypothèse de scénario",
+        "source": "Visio, coordination et maintien de la couverture terrain"
+      },
+      "annual_savings_per_covered": {
+        "value": 320,
+        "unit": "€ de scénario / salarié couvert / an",
+        "status": "Hypothèse de scénario",
+        "source": "Billets, hôtels et indemnités évités, hors coût distanciel déjà budgété"
+      }
+    },
+    "careers": {
+      "label_en": "Career pathways",
+      "label_fr": "Carrières",
+      "eligible_roles": {
+        "value": [],
+        "unit": "liste de JobRole",
+        "status": "Hypothèse de scénario",
+        "source": "Liste vide = tous les métiers de la base admissibles au filtre d’exposition. Liste critique à valider avec le client."
+      },
+      "pilot_covered": {
+        "value": 120,
+        "unit": "salariés effectivement couverts",
+        "status": "Hypothèse de scénario",
+        "source": "Capacité d’intervention illustrative, hors témoins."
+      },
+      "rollout_covered": {
+        "value": 360,
+        "unit": "salariés effectivement couverts",
+        "status": "Hypothèse de scénario",
+        "source": "Déploiement séparé à confirmer sur des équipes comparables, hors budget pilote."
+      },
+      "pilot_launch": {
+        "value": 18000,
+        "unit": "€ de scénario au lancement",
+        "status": "Hypothèse de scénario",
+        "source": "Conception des parcours et préparation des managers"
+      },
+      "rollout_launch": {
+        "value": 34000,
+        "unit": "€ de scénario au lancement",
+        "status": "Hypothèse de scénario",
+        "source": "Conception des parcours et préparation des managers à l’échelle de déploiement."
+      },
+      "annual_recurring_per_covered": {
+        "value": 400,
+        "unit": "€ de scénario / salarié couvert / an",
+        "status": "Hypothèse de scénario",
+        "source": "Temps RH/manager, formation et backfill"
+      },
+      "annual_savings_per_covered": {
+        "value": 0,
+        "unit": "€ de scénario / salarié couvert / an",
+        "status": "Hypothèse de scénario",
+        "source": "Aucune économie directe créditée sans preuve"
+      }
+    }
+  },
+  "scenarios": {
+    "prudent": {
+      "name": "Prudent",
+      "coverage_multiplier": {
+        "value": 0.75,
+        "unit": "× couverture de référence",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "budget_multiplier": {
+        "value": 1.2,
+        "unit": "× coûts fixes et variables",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "savings_multiplier": {
+        "value": 0.55,
+        "unit": "× économies unitaires",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "replacement_multiplier": {
+        "value": 0.75,
+        "unit": "× valeur de remplacement",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "effect_pp": {
+        "overtime": {
+          "value": 0.25,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "travel": {
+          "value": 0.25,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "careers": {
+          "value": 0.25,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        }
+      }
+    },
+    "central": {
+      "name": "Central",
+      "coverage_multiplier": {
+        "value": 1,
+        "unit": "× couverture de référence",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "budget_multiplier": {
+        "value": 1,
+        "unit": "× coûts fixes et variables",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "savings_multiplier": {
+        "value": 1,
+        "unit": "× économies unitaires",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "replacement_multiplier": {
+        "value": 1,
+        "unit": "× valeur de remplacement",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "effect_pp": {
+        "overtime": {
+          "value": 1.5,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "travel": {
+          "value": 0.75,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "careers": {
+          "value": 0.75,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        }
+      }
+    },
+    "favorable": {
+      "name": "Favorable",
+      "coverage_multiplier": {
+        "value": 1.15,
+        "unit": "× couverture de référence",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "budget_multiplier": {
+        "value": 0.9,
+        "unit": "× coûts fixes et variables",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "savings_multiplier": {
+        "value": 1.3,
+        "unit": "× économies unitaires",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "replacement_multiplier": {
+        "value": 1.2,
+        "unit": "× valeur de remplacement",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "effect_pp": {
+        "overtime": {
+          "value": 2.5,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "travel": {
+          "value": 1.5,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "careers": {
+          "value": 1.75,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        }
+      }
+    },
+    "no_effect": {
+      "name": "Aucun effet",
+      "coverage_multiplier": {
+        "value": 1,
+        "unit": "× couverture de référence",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "budget_multiplier": {
+        "value": 1,
+        "unit": "× coûts fixes et variables",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "savings_multiplier": {
+        "value": 1,
+        "unit": "× économies unitaires",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "replacement_multiplier": {
+        "value": 1,
+        "unit": "× valeur de remplacement",
+        "status": "Hypothèse de scénario",
+        "source": "Convention de simulation à valider auprès d’Ozone"
+      },
+      "effect_pp": {
+        "overtime": {
+          "value": 0,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "travel": {
+          "value": 0,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        },
+        "careers": {
+          "value": 0,
+          "unit": "points sur l’horizon de travail",
+          "status": "Hypothèse de scénario",
+          "source": "Hypothèse illustrative indépendante des associations observées."
+        }
+      }
+    }
+  },
+  "pilot_design": {
+    "control_rate": {
+      "value": 0.1,
+      "unit": "proportion de départs volontaires sur 12 mois",
+      "status": "Hypothèse de scénario",
+      "source": "Hypothèse de dimensionnement indépendante de la proportion observée."
+    },
+    "team_size": {
+      "value": 15,
+      "unit": "salariés / équipe",
+      "status": "Hypothèse de scénario",
+      "source": "Équipes de taille égale pour le calcul de précision."
+    },
+    "icc": {
+      "value": 0.02,
+      "unit": "corrélation intra-équipe",
+      "status": "Hypothèse de scénario",
+      "source": "Ordre de grandeur de simulation. Estimer sur l’historique Ozone."
+    },
+    "alpha": {
+      "value": 0.05,
+      "unit": "niveau bilatéral",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de dimensionnement"
+    },
+    "power": {
+      "value": 0.8,
+      "unit": "puissance cible",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de dimensionnement"
+    },
+    "coverage_gate": {
+      "value": 0.8,
+      "unit": "part du périmètre traité",
+      "status": "Hypothèse de scénario",
+      "source": "Critère proposé de fidélité du pilote au plan à 3 mois."
+    },
+    "overtime_gate_pp": {
+      "value": 10,
+      "unit": "% de réduction des heures payées par ETP",
+      "status": "Hypothèse de scénario",
+      "source": "Cible opérationnelle illustrative à 3 mois, mesurée contre le témoin."
+    },
+    "sla_max_loss_pp": {
+      "value": 1,
+      "unit": "point de conformité SLA",
+      "status": "Hypothèse de scénario",
+      "source": "Marge illustrative d’alerte à valider avant le lancement."
+    },
+    "target_effect_pp": {
+      "value": 1.5,
+      "unit": "points sur 12 mois",
+      "status": "Hypothèse de scénario",
+      "source": "Effet à détecter pour le calcul de puissance. Aligné sur le scénario central horaires de référence."
+    }
+  },
+  "sensitivity": {
+    "replacement_multipliers": {
+      "value": [
+        0.5,
+        1.5
+      ],
+      "unit": "× coût de remplacement central",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de simulation à valider auprès d’Ozone"
+    },
+    "cost_multipliers": {
+      "value": [
+        0.7,
+        1.3
+      ],
+      "unit": "× budget central",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de simulation à valider auprès d’Ozone"
+    },
+    "coverage_multipliers": {
+      "value": [
+        0.5,
+        1.25
+      ],
+      "unit": "× couverture centrale",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de simulation à valider auprès d’Ozone"
+    },
+    "effect_pp": {
+      "value": [
+        0,
+        3
+      ],
+      "unit": "points sur l’horizon de travail",
+      "status": "Hypothèse de scénario",
+      "source": "Convention de simulation à valider auprès d’Ozone"
+    }
+  },
+  "data_requests": {
+    "currency_and_costs": {
+      "value": null,
+      "unit": "devise, €/remplacement, coûts complets",
+      "status": "Donnée à demander à Ozone",
+      "source": "Finance / Paie"
+    },
+    "teams_and_roles": {
+      "value": null,
+      "unit": "équipe, site, métier critique, ETP",
+      "status": "Donnée à demander à Ozone",
+      "source": "RH / Direction expansion"
+    },
+    "voluntary_departures": {
+      "value": null,
+      "unit": "dates, motifs, effectifs exposés",
+      "status": "Donnée à demander à Ozone",
+      "source": "RH"
+    },
+    "operational_baselines": {
+      "value": null,
+      "unit": "heures payées, trajets, budget, SLA, incidents",
+      "status": "Donnée à demander à Ozone",
+      "source": "Opérations / Achats / Finance"
+    }
+  }
+}

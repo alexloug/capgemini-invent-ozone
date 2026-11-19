@@ -88,7 +88,9 @@ Logique Minto : réponse business → ampleur → preuves → population → ég
 
 **Transition** : Comment transformer ces signaux en actions évaluables ?
 
-## 7. Engager trois chantiers mesurables, puis valider leurs effets
+## 7. Relier le diagnostic à la décision de pilote
+
+Pour le rendu final, remplacer cette slide de transition par les [quatre slides du HR Action Business Case](HR_ACTION_BUSINESS_CASE_SLIDES.md). Leur trame en anglais couvre les actions, le budget et les seuils, le gain par scénario et la décision de déploiement.
 
 **Message clé** : Pilote charge/horaires ; revue des parcours ; audit d’égalité et données datées.
 

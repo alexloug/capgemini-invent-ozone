@@ -66,7 +66,7 @@ Sous-groupes guidés par les analyses existantes. Support d’entraînement requ
 
 ## 7. Recommandations Ozone
 
-Pilote charge/horaires et déplacements ; revue des parcours et entretiens de maintien en poste ; audit documenté des rémunérations et décisions de promotion. Populations, faisabilité, KPI et limites dans [HR_RECOMMENDATIONS.md](HR_RECOMMENDATIONS.md).
+Donner la priorité au pilote horaires et récupération, sous réserve de valider les renforts, les économies et les engagements de service. Le [HR Action Business Case](HR_ACTION_BUSINESS_CASE.md) compare le budget, le seuil de rentabilité et les conditions de déploiement des actions horaires, déplacements et carrières. L’audit de rémunération et de promotion suit un chantier distinct. [Recommandations RH](HR_RECOMMENDATIONS.md)
 
 ## 8. Limites
 

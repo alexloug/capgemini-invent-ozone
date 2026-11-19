@@ -1,0 +1,28 @@
+﻿JobRole,action,eligible_n,reference_n,gross_monthly,eligible_role_weight,observed_source,base_replacement_eur
+Research Scientist,overtime,100,300,3234.7966666666666,0.23148148148148148,data/employee.csv.xlsx · MonthlyIncome / JobRole,50462.828
+Sales Executive,overtime,96,333,6955.660660660661,0.2222222222222222,data/employee.csv.xlsx · MonthlyIncome / JobRole,108508.30630630632
+Laboratory Technician,overtime,62,267,3244.3445692883897,0.14351851851851852,data/employee.csv.xlsx · MonthlyIncome / JobRole,50611.77528089887
+Manufacturing Director,overtime,42,152,7299.078947368421,0.09722222222222222,data/employee.csv.xlsx · MonthlyIncome / JobRole,113865.63157894737
+Healthcare Representative,overtime,41,137,7539.109489051095,0.09490740740740741,data/employee.csv.xlsx · MonthlyIncome / JobRole,117610.10802919709
+Manager,overtime,28,103,17188.271844660194,0.06481481481481481,data/employee.csv.xlsx · MonthlyIncome / JobRole,268137.040776699
+Sales Representative,overtime,25,88,2641.159090909091,0.05787037037037037,data/employee.csv.xlsx · MonthlyIncome / JobRole,41202.08181818182
+Research Director,overtime,25,84,16018.904761904761,0.05787037037037037,data/employee.csv.xlsx · MonthlyIncome / JobRole,249894.91428571427
+Human Resources,overtime,13,54,4352.888888888889,0.03009259259259259,data/employee.csv.xlsx · MonthlyIncome / JobRole,67905.06666666667
+Sales Executive,travel,60,333,6955.660660660661,0.20905923344947736,data/employee.csv.xlsx · MonthlyIncome / JobRole,108508.30630630632
+Research Scientist,travel,56,300,3234.7966666666666,0.1951219512195122,data/employee.csv.xlsx · MonthlyIncome / JobRole,50462.828
+Laboratory Technician,travel,53,267,3244.3445692883897,0.18466898954703834,data/employee.csv.xlsx · MonthlyIncome / JobRole,50611.77528089887
+Manufacturing Director,travel,31,152,7299.078947368421,0.10801393728222997,data/employee.csv.xlsx · MonthlyIncome / JobRole,113865.63157894737
+Healthcare Representative,travel,27,137,7539.109489051095,0.09407665505226481,data/employee.csv.xlsx · MonthlyIncome / JobRole,117610.10802919709
+Sales Representative,travel,24,88,2641.159090909091,0.08362369337979095,data/employee.csv.xlsx · MonthlyIncome / JobRole,41202.08181818182
+Research Director,travel,13,84,16018.904761904761,0.04529616724738676,data/employee.csv.xlsx · MonthlyIncome / JobRole,249894.91428571427
+Manager,travel,13,103,17188.271844660194,0.04529616724738676,data/employee.csv.xlsx · MonthlyIncome / JobRole,268137.040776699
+Human Resources,travel,10,54,4352.888888888889,0.03484320557491289,data/employee.csv.xlsx · MonthlyIncome / JobRole,67905.06666666667
+Sales Executive,careers,333,333,6955.660660660661,0.21936758893280633,data/employee.csv.xlsx · MonthlyIncome / JobRole,108508.30630630632
+Research Scientist,careers,300,300,3234.7966666666666,0.1976284584980237,data/employee.csv.xlsx · MonthlyIncome / JobRole,50462.828
+Laboratory Technician,careers,267,267,3244.3445692883897,0.17588932806324112,data/employee.csv.xlsx · MonthlyIncome / JobRole,50611.77528089887
+Manufacturing Director,careers,152,152,7299.078947368421,0.10013175230566534,data/employee.csv.xlsx · MonthlyIncome / JobRole,113865.63157894737
+Healthcare Representative,careers,137,137,7539.109489051095,0.09025032938076416,data/employee.csv.xlsx · MonthlyIncome / JobRole,117610.10802919709
+Manager,careers,103,103,17188.271844660194,0.06785243741765482,data/employee.csv.xlsx · MonthlyIncome / JobRole,268137.040776699
+Sales Representative,careers,88,88,2641.159090909091,0.057971014492753624,data/employee.csv.xlsx · MonthlyIncome / JobRole,41202.08181818182
+Research Director,careers,84,84,16018.904761904761,0.05533596837944664,data/employee.csv.xlsx · MonthlyIncome / JobRole,249894.91428571427
+Human Resources,careers,54,54,4352.888888888889,0.03557312252964427,data/employee.csv.xlsx · MonthlyIncome / JobRole,67905.06666666667
