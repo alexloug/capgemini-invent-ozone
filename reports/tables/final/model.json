@@ -1,0 +1,19 @@
+{
+  "model": "Logistique",
+  "variant": "pruned",
+  "candidate_exclusions": [
+    "Education",
+    "HourlyRate"
+  ],
+  "parameters": {
+    "modele__C": 0.1,
+    "modele__class_weight": null
+  },
+  "noise_seeds": [
+    42,
+    137,
+    271,
+    509,
+    877
+  ]
+}

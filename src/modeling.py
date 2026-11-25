@@ -82,25 +82,26 @@ def load_model_data(path=DATA_PATH):
     return X, y, source_rows, groups, quantitative
 
 
-def encode_binary(frame):
+def encode_binary(frame, columns=None):
     """Encodage fixe, dans les pipelines ; échec explicite si un code est inconnu."""
     result = frame.copy()
-    for col, mapping in BINARY.items():
+    for col in BINARY if columns is None else columns:
+        mapping = BINARY[col]
         if frame[col].isna().any() or not frame[col].isin(mapping).all():
             raise ValueError(f'Valeurs binaires absentes ou inconnues dans {col}')
         result[col] = frame[col].map(mapping).astype(int)
     return result
 
 
-def make_split(X, y, source_rows):
-    """Une seule séparation, puis cinq plis relatifs à l'entraînement."""
+def make_split(X, y, source_rows, n_splits=5):
+    """Une seule séparation, puis des plis stratifiés relatifs à l'entraînement."""
     train_idx, test_idx = train_test_split(np.arange(len(X)), test_size=.2,
                                          stratify=y, random_state=42)
     assert not set(train_idx).intersection(test_idx)
     assert set(train_idx).union(test_idx) == set(range(len(X)))
     X_train, X_test = X.iloc[train_idx].copy(), X.iloc[test_idx].copy()
     y_train, y_test = y.iloc[train_idx].copy(), y.iloc[test_idx].copy()
-    folds = list(StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_train, y_train))
+    folds = list(StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42).split(X_train, y_train))
     fold_ids = np.full(len(X), -1, dtype=int)
     for fold, (fit, valid) in enumerate(folds):
         assert not set(fit).intersection(valid)
@@ -118,18 +119,23 @@ def make_split(X, y, source_rows):
     return X_train, X_test, y_train, y_test, folds, split_rows
 
 
-def build_pipelines(quantitative):
-    binary = FunctionTransformer(encode_binary, validate=False, feature_names_out='one-to-one')
+def build_pipelines(quantitative, excluded=()):
+    binary_columns = [col for col in BINARY if col not in excluded]
+    binary = FunctionTransformer(encode_binary, validate=False, feature_names_out='one-to-one',
+                                 kw_args={'columns': binary_columns})
+    nominal = [col for col in NOMINAL if col not in excluded]
+    scores = [col for col in SCORES if col not in excluded]
+    quantitative = [col for col in quantitative if col not in excluded]
     def onehot():
         return OneHotEncoder(handle_unknown='ignore', drop=None, sparse_output=False)
     logistic_preparation = ColumnTransformer([
-        ('binaires', binary, list(BINARY)),
-        ('categories_scores', onehot(), NOMINAL + SCORES),
+        ('binaires', binary, binary_columns),
+        ('categories_scores', onehot(), nominal + scores),
         ('quantitatives', StandardScaler(), quantitative)], remainder='drop')
     forest_preparation = ColumnTransformer([
-        ('binaires', binary, list(BINARY)),
-        ('categories', onehot(), NOMINAL),
-        ('scores', 'passthrough', SCORES),
+        ('binaires', binary, binary_columns),
+        ('categories', onehot(), nominal),
+        ('scores', 'passthrough', scores),
         ('quantitatives', 'passthrough', quantitative)], remainder='drop')
     return {
         'Logistique': Pipeline([('preparation', logistic_preparation),
@@ -141,7 +147,7 @@ def build_pipelines(quantitative):
         'Baseline': Pipeline([('modele', DummyClassifier(strategy='prior'))])}
 
 
-def select_models(X_train, y_train, folds, quantitative, model_names=None):
+def select_models(X_train, y_train, folds, quantitative, model_names=None, excluded=()):
     """Recherche sur l'entraînement uniquement, mêmes plis pour les modèles demandés."""
     grids = {
         'Logistique': {'modele__C': [.1, 1, 10], 'modele__class_weight': [None, 'balanced']},
@@ -149,7 +155,7 @@ def select_models(X_train, y_train, folds, quantitative, model_names=None):
                          'modele__class_weight': [None, 'balanced']},
         'Baseline': {}}
     searches, comparison = {}, []
-    available = build_pipelines(quantitative)
+    available = build_pipelines(quantitative, excluded)
     names = list(available) if model_names is None else list(model_names)
     if len(set(names)) != len(names) or not set(names).issubset(available):
         raise ValueError(f"Liste de modèles invalide : {names}")
